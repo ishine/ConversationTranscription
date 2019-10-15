@@ -37,7 +37,7 @@ def GenWavFile(file_names, file_list, sph2pipe, train_dir):
     with open(wav_file, "w") as f:
         for i, (file, path) in enumerate(zip(file_names, file_list)):
             name, ext = os.path.splitext(file)
-            f.write(name + " " + sph2pipe + " " + "-f wav -p -c " + str(i) + train_dir + "/"+file + "\n")
+            f.write(name + " " + sph2pipe + " " + "-f wav -p -c " + str(i) + train_dir + "/"+file + "|\n")
         
 
 
