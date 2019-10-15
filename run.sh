@@ -25,10 +25,16 @@ if [ $stage -le 0 ]; then
 	# generate wav files 
 	genWavFile.py data_root train_dir
 
-	# Create the segments file
+	# Compute vad
 	sid/compute_vad_decision.sh --nj 40 --cmd "$train_cmd" \
-      $train_dir exp/make_vad $vaddir
-    utils/fix_data_dir.sh $train_dir
+      $train_dir exp/make_vad $vaddir  
+    utils/fix_data_dir.sh $train_dir # maybe only one fix_data_dir for compute_vad_decision and vad_to_segments?
+	
+	# create segments file
+	diarization/vad_to_segments.sh --nj 40 --cmd "$train_cmd" \
+	$train_dir $train_dir
+	utils/fix_data_dir.sh $train_dir
+	
 	
 	# generate MFCC features so that we can create the segments file 
 	steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --nj 40 \
