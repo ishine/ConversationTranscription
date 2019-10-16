@@ -32,7 +32,7 @@ if [ $stage -le 0 ]; then
 	
 	# create segments file
 	diarization/vad_to_segments.sh --nj 40 --cmd "$train_cmd" \
-	$train_dir $train_dir
+		$train_dir $train_dir
 	utils/fix_data_dir.sh $train_dir
 	
 	
