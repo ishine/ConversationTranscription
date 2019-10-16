@@ -6,7 +6,7 @@
 # requires trained speech recognition model and trained X-Vectors
 
 
-data_dir= `pwd`/data # add data directory 
+data_dir=`pwd`/data # add data directory 
 train_dir=`pwd`/data/train
 
 . ./cmd.sh
@@ -23,12 +23,13 @@ ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
 # Prepare datasets
 if [ $stage -le 0 ]; then
 	# generate wav files 
-	genWavFile.py data_root train_dir
+	genWavFile.py $data_dir $train_dir
+
 
 	# Compute vad
 	sid/compute_vad_decision.sh --nj 40 --cmd "$train_cmd" \
-      $train_dir exp/make_vad $vaddir  
-    utils/fix_data_dir.sh $train_dir # maybe only one fix_data_dir for compute_vad_decision and vad_to_segments?
+	       	$train_dir exp/make_vad $vaddir  
+	utils/fix_data_dir.sh $train_dir # maybe only one fix_data_dir for compute_vad_decision and vad_to_segments?
 	
 	# create segments file
 	diarization/vad_to_segments.sh --nj 40 --cmd "$train_cmd" \
@@ -38,9 +39,9 @@ if [ $stage -le 0 ]; then
 	
 	# generate MFCC features so that we can create the segments file 
 	steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --nj 40 \
-      --cmd "$train_cmd" --write-utt2num-frames true \
-      $train_dir exp/make_mfcc $mfccdir
-    utils/fix_data_dir.sh $train_dir
+		--cmd "$train_cmd" --write-utt2num-frames true \
+		$train_dir exp/make_mfcc $mfccdir
+   	 utils/fix_data_dir.sh $train_dir
 	
 	
 	
