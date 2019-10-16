@@ -23,7 +23,7 @@ ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
 # Prepare datasets
 if [ $stage -le 0 ]; then
 	# generate wav files 
-	genWavFile.py $data_dir $inter_dir
+	local/genWavFile.py $data_dir $inter_dir
 
 	# generate MFCC features so that we can create the segments file 
 	steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --nj 40 \
@@ -38,8 +38,8 @@ if [ $stage -le 0 ]; then
 	
 	# prepare features for x-vector training
 	local/nnet3/xvector/prepare_feats.sh --nj 40 --cmd "$train_cmd" \
-      $inter_dir data/cmn exp/cmn
-    cp $inter_dir/vad.scp data/cmn/
+	       	$inter_dir data/cmn exp/cmn
+	cp $inter_dir/vad.scp data/cmn/
 	
 	
 	# create segments file

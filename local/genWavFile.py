@@ -51,7 +51,7 @@ if __name__ == "__main__":
     data_dir = sys.argv[1]
     train_dir = sys.argv[2]
     #data_dir = "./data/amicorpus"
-    train_dir = "./data/train"
+    #train_dir = "./data/train"
     
     # given a data directory, recursively walk and identify any audio files 
     file_types = ['flac', 'aiff', 'wav', 'mp4', 'ogg']
