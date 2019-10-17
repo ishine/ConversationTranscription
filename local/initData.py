@@ -39,6 +39,15 @@ def GenWavFile(file_names, file_list, sph2pipe, train_dir):
         for i, (file, path) in enumerate(zip(file_names, file_list)):
             name, ext = os.path.splitext(file)
             f.write(name + " " + sph2pipe + " " + "-f wav -p -c " + str(i) + train_dir + "/"+file + "|\n")
+            
+def genUtt2Spk(file_names, train_dir):
+    Utt2Spk = train_dir + "/Utt2Spk"
+    # just a file that maps file names to file names
+    # will be recreated after I create the segments file
+    with open(Utt2Spk, "w") as f:
+        for file in file_names:
+            name, _ = os.path.splitext(file)
+            f.write(name + " " + name)
         
 
 
