@@ -23,7 +23,7 @@ ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
 # Prepare datasets
 if [ $stage -le 0 ]; then
 	# generate wav files 
-	local/genWavFile.py $data_dir $inter_dir
+	local/initData.py $data_dir $inter_dir
 
 	# generate MFCC features so that we can create the segments file 
 	steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --nj 40 \
