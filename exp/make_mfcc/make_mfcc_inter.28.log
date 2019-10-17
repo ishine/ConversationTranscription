@@ -1,0 +1,51 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/utt2dur.28 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_inter.28.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/utt2num_frames.28 --compress=true ark:- ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.28.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.28.scp 
+# Started at Thu Oct 17 14:10:24 UTC 2019
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/utt2num_frames.28 --compress=true ark:- ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.28.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.28.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/utt2dur.28 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_inter.28.scp ark:- 
+sh: 1: /home/dpovey/kaldi-trunk/tools/sph2pipe_v2.5/sph2pipe: not found
+ERROR (compute-mfcc-feats[5.5.516~1-a4de0]:Read4ByteTag():wave-reader.cc:56) WaveData: expected 4-byte chunk-name, got read error
+
+[ Stack-Trace: ]
+compute-mfcc-feats(kaldi::MessageLogger::LogMessage() const+0xb61) [0x5629a0bac691]
+compute-mfcc-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x5629a0b0ef59]
+compute-mfcc-feats(kaldi::WaveInfo::Read(std::istream&)+0x1c8) [0x5629a0b2b1e6]
+compute-mfcc-feats(kaldi::WaveData::Read(std::istream&)+0x4e) [0x5629a0b2d040]
+compute-mfcc-feats(kaldi::WaveHolder::Read(std::istream&)+0x20) [0x5629a0b150a4]
+compute-mfcc-feats(kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()+0x175) [0x5629a0b1cde9]
+compute-mfcc-feats(kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()+0x27) [0x5629a0b1d729]
+compute-mfcc-feats(kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x2be) [0x5629a0b1214a]
+compute-mfcc-feats(kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x1f1) [0x5629a0b15c9b]
+compute-mfcc-feats(kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x68) [0x5629a0b15ff6]
+compute-mfcc-feats(main+0x843) [0x5629a0b0c253]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f509683db97]
+compute-mfcc-feats(_start+0x2a) [0x5629a0b0b90a]
+
+WARNING (compute-mfcc-feats[5.5.516~1-a4de0]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). kaldi::KaldiFatalError
+WARNING (compute-mfcc-feats[5.5.516~1-a4de0]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/dpovey/kaldi-trunk/tools/sph2pipe_v2.5/sph2pipe -f wav -p -c 62/home/alb2307/speech/project/ConversationTranscription/data/inter/ES2011c.Mix-Headset.wav|'
+WARNING (compute-mfcc-feats[5.5.516~1-a4de0]:Close():kaldi-io.cc:515) Pipe /home/dpovey/kaldi-trunk/tools/sph2pipe_v2.5/sph2pipe -f wav -p -c 62/home/alb2307/speech/project/ConversationTranscription/data/inter/ES2011c.Mix-Headset.wav| had nonzero return status 32512
+sh: 1: /home/dpovey/kaldi-trunk/tools/sph2pipe_v2.5/sph2pipe: not found
+ERROR (compute-mfcc-feats[5.5.516~1-a4de0]:Read4ByteTag():wave-reader.cc:56) WaveData: expected 4-byte chunk-name, got read error
+
+[ Stack-Trace: ]
+compute-mfcc-feats(kaldi::MessageLogger::LogMessage() const+0xb61) [0x5629a0bac691]
+compute-mfcc-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x5629a0b0ef59]
+compute-mfcc-feats(kaldi::WaveInfo::Read(std::istream&)+0x1c8) [0x5629a0b2b1e6]
+compute-mfcc-feats(kaldi::WaveData::Read(std::istream&)+0x4e) [0x5629a0b2d040]
+compute-mfcc-feats(kaldi::WaveHolder::Read(std::istream&)+0x20) [0x5629a0b150a4]
+compute-mfcc-feats(kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()+0x175) [0x5629a0b1cde9]
+compute-mfcc-feats(kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()+0x27) [0x5629a0b1d729]
+compute-mfcc-feats(kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x2be) [0x5629a0b1214a]
+compute-mfcc-feats(kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x1f1) [0x5629a0b15c9b]
+compute-mfcc-feats(kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x68) [0x5629a0b15ff6]
+compute-mfcc-feats(main+0x843) [0x5629a0b0c253]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f509683db97]
+compute-mfcc-feats(_start+0x2a) [0x5629a0b0b90a]
+
+WARNING (compute-mfcc-feats[5.5.516~1-a4de0]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). kaldi::KaldiFatalError
+WARNING (compute-mfcc-feats[5.5.516~1-a4de0]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/dpovey/kaldi-trunk/tools/sph2pipe_v2.5/sph2pipe -f wav -p -c 12/home/alb2307/speech/project/ConversationTranscription/data/inter/ES2011d.Mix-Headset.wav|'
+WARNING (compute-mfcc-feats[5.5.516~1-a4de0]:Close():kaldi-io.cc:515) Pipe /home/dpovey/kaldi-trunk/tools/sph2pipe_v2.5/sph2pipe -f wav -p -c 12/home/alb2307/speech/project/ConversationTranscription/data/inter/ES2011d.Mix-Headset.wav| had nonzero return status 32512
+LOG (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:185)  Done 0 out of 0 utterances.
+LOG (copy-feats[5.5.516~1-a4de0]:main():copy-feats.cc:143) Copied 0 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 1) at Thu Oct 17 14:10:24 UTC 2019, elapsed time 0 seconds

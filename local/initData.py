@@ -33,21 +33,29 @@ def GetFileList(data_dir, file_types):
     file_list = [re.sub("\\\\", "/", file) for file in file_list]
     return file_list
 
-def GenWavFile(file_names, file_list, sph2pipe, train_dir):
+def GenWavFile(file_names, file_list):
     wav_file = train_dir + "/wav.scp"
     with open(wav_file, "w") as f:
         for i, (file, path) in enumerate(zip(file_names, file_list)):
             name, ext = os.path.splitext(file)
-            f.write(name + " " + sph2pipe + " " + "-f wav -p -c " + str(i) + train_dir + "/"+file + "|\n")
-            
-def genUtt2Spk(file_names, train_dir):
-    Utt2Spk = train_dir + "/Utt2Spk"
+
+            # if sphere then pip it to wav
+            if ext.lower() == ".sph":
+                #f.write(name + " " + sph2pipe + " " + "-f wav -p " + train_dir + "/"+file + " |\n")
+                f.write(name + " sph2pipe -f wav -p " + path + " |\n")
+
+            # if wav then just have file name
+            if ext.lower() == ".wav":
+                f.write(name + " " + path + "\n")
+
+def GenUtt2Spk(file_names, train_dir):
+    Utt2Spk = train_dir + "/utt2spk"
     # just a file that maps file names to file names
     # will be recreated after I create the segments file
     with open(Utt2Spk, "w") as f:
         for file in file_names:
             name, _ = os.path.splitext(file)
-            f.write(name + " " + name)
+            f.write(name + " " + name + "\n")
         
 
 
@@ -69,16 +77,19 @@ if __name__ == "__main__":
     
     # convert to format needed by Kaldi
     file_names =  [os.path.basename(file) for file in file_list]
-    sph2pipe = "/home/dpovey/kaldi-trunk/tools/sph2pipe_v2.5/sph2pipe" # unsure if this is correct
-    
+       
     # generate training directory if it does not exist
     if not os.path.exists(train_dir):
         os.makedirs(train_dir)
     
-    GenWavFile(file_names, file_list, sph2pipe, train_dir)
+    GenWavFile(file_names, file_list)
     
     print("wav file successfully created and exported")
-    
+   
+    # generate utt2spk
+    GenUtt2Spk(file_names, train_dir)
+    print("utt2spk file successfully created")
+
     
     
     

@@ -1,0 +1,19 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/utt2dur.6 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_inter.6.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/utt2num_frames.6 --compress=true ark:- ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.6.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.6.scp 
+# Started at Thu Oct 17 14:55:02 UTC 2019
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/utt2num_frames.6 --compress=true ark:- ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.6.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.6.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/utt2dur.6 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_inter.6.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2010b.Mix-Headset
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2010c.Mix-Headset
+WARNING (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2010d.Mix-Headset
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2011a.Mix-Headset
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2011b.Mix-Headset
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2011c.Mix-Headset
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2011d.Mix-Headset
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2012a.Mix-Headset
+VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2012b.Mix-Headset
+LOG (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:185)  Done 9 out of 9 utterances.
+LOG (copy-feats[5.5.516~1-a4de0]:main():copy-feats.cc:143) Copied 9 feature matrices.
+# Accounting: time=69 threads=1
+# Ended (code 0) at Thu Oct 17 14:56:11 UTC 2019, elapsed time 69 seconds
