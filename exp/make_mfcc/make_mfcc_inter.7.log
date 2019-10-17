@@ -1,8 +1,8 @@
 # compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/utt2dur.7 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_inter.7.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/utt2num_frames.7 --compress=true ark:- ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.7.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.7.scp 
-# Started at Thu Oct 17 14:55:02 UTC 2019
+# Started at Thu Oct 17 15:02:44 UTC 2019
 #
-copy-feats --write-num-frames=ark,t:exp/make_mfcc/utt2num_frames.7 --compress=true ark:- ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.7.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.7.scp 
 compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/utt2dur.7 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_inter.7.scp ark:- 
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/utt2num_frames.7 --compress=true ark:- ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.7.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/raw_mfcc_inter.7.scp 
 VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2012c.Mix-Headset
 VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2012d.Mix-Headset
 VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2013a.Mix-Headset
@@ -14,5 +14,5 @@ VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) P
 VLOG[2] (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:182) Processed features for key ES2014c.Mix-Headset
 LOG (compute-mfcc-feats[5.5.516~1-a4de0]:main():compute-mfcc-feats.cc:185)  Done 9 out of 9 utterances.
 LOG (copy-feats[5.5.516~1-a4de0]:main():copy-feats.cc:143) Copied 9 feature matrices.
-# Accounting: time=78 threads=1
-# Ended (code 0) at Thu Oct 17 14:56:20 UTC 2019, elapsed time 78 seconds
+# Accounting: time=76 threads=1
+# Ended (code 0) at Thu Oct 17 15:04:00 UTC 2019, elapsed time 76 seconds

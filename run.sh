@@ -33,18 +33,18 @@ if [ $stage -le 0 ]; then
    	utils/fix_data_dir.sh $inter_dir
 	
 	# Compute vad
-	sid/compute_vad_decision.sh  --cmd "$train_cmd" \
+	sid/compute_vad_decision.sh  --cmd "$train_cmd" --nj 8 \
 	       	$inter_dir exp/make_vad $vaddir  
 	utils/fix_data_dir.sh $inter_dir # maybe only one fix_data_dir for compute_vad_decision and vad_to_segments?
 	
 	# prepare features for x-vector training
-	local/nnet3/xvector/prepare_feats.sh  --cmd "$train_cmd" \
+	local/prepare_feats.sh  --cmd "$train_cmd" --nj 8 \
 	       	$inter_dir data/cmn exp/cmn
 	cp $inter_dir/vad.scp data/cmn/
 	
 	
 	# create segments file
-	diarization/vad_to_segments.sh  --cmd "$train_cmd" \
+	diarization/vad_to_segments.sh  --cmd "$train_cmd" --nj 8 \
 		$inter_dir $inter_dir
 	utils/fix_data_dir.sh $inter_dir
 	
