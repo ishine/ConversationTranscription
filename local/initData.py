@@ -66,10 +66,12 @@ def GenUtt2Spk(file_names, train_dir):
                     
                     
     else: # otherwise just map recording id to recording id
-        with open(Utt2Spk, "w") as f:
-            for file in file_names:
-                name, _ = os.path.splitext(file)
-                f.write(name + " " + name + "\n")
+        with open(train_dir + "/wav.scp") as wav:
+            with open(Utt2Spk, "w") as f:
+                for line in wav:
+                    #name, _ = os.path.splitext(file)
+                    name = line.split(" ")[0]
+                    f.write(name + " " + name + "\n")
             
 
 
