@@ -35,18 +35,23 @@ def GetFileList(data_dir, file_types):
 
 def GenWavFile(file_names, file_list):
     wav_file = train_dir + "/wav.scp"
-    with open(wav_file, "w") as f:
-        for i, (file, path) in enumerate(zip(file_names, file_list)):
-            name, ext = os.path.splitext(file)
-
-            # if sphere then pip it to wav
-            if ext.lower() == ".sph":
-                #f.write(name + " " + sph2pipe + " " + "-f wav -p " + train_dir + "/"+file + " |\n")
-                f.write(name + " sph2pipe -f wav -p " + path + " |\n")
-
-            # if wav then just have file name
-            if ext.lower() == ".wav":
-                f.write(name + " " + path + "\n")
+    
+    if os.path.exists(wav_file):
+        pass
+    
+    else:
+        with open(wav_file, "w") as f:
+            for i, (file, path) in enumerate(zip(file_names, file_list)):
+                name, ext = os.path.splitext(file)
+    
+                # if sphere then pip it to wav
+                if ext.lower() == ".sph":
+                    #f.write(name + " " + sph2pipe + " " + "-f wav -p " + train_dir + "/"+file + " |\n")
+                    f.write(name + " sph2pipe -f wav -p " + path + " |\n")
+    
+                # if wav then just have file name
+                if ext.lower() == ".wav":
+                    f.write(name + " " + path + "\n")
 
 def GenUtt2Spk(file_names, train_dir):
     Utt2Spk = train_dir + "/utt2spk"
