@@ -50,13 +50,22 @@ def GenWavFile(file_names, file_list):
 
 def GenUtt2Spk(file_names, train_dir):
     Utt2Spk = train_dir + "/utt2spk"
-    # just a file that maps file names to file names
-    # will be recreated after I create the segments file
-    with open(Utt2Spk, "w") as f:
-        for file in file_names:
-            name, _ = os.path.splitext(file)
-            f.write(name + " " + name + "\n")
-        
+    
+    # if the segments file exists then map utt2spk based on segments
+    if os.path.exists(train_dir + "/segments"):
+        with open(train_dir + "/segments") as segments:
+            with open(Utt2Spk, "w") as f:
+                for line in segments:
+                    name = line.split(" ")[0]
+                    f.write(name + " " + name + "\n")
+                    
+                    
+    else: # otherwise just map recording id to recording id
+        with open(Utt2Spk, "w") as f:
+            for file in file_names:
+                name, _ = os.path.splitext(file)
+                f.write(name + " " + name + "\n")
+            
 
 
 if __name__ == "__main__":

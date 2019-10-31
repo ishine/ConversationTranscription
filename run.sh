@@ -20,9 +20,9 @@ nnet_dir=$data_dir/nnet/0003_sre16_v2_1a/exp/xvector_nnet_1a
 num_components=1024 # the number of UBM components (used for VB resegmentation)
 ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
 
-# Prepare datasets
+# Generate Segments file 
 if [ $stage -le 0 ]; then
-	# generate wav files 
+	# generate wav files and prep base datasets 
 	local/initData.py $data_dir $inter_dir
 	utils/fix_data_dir.sh $inter_dir
 
@@ -31,18 +31,40 @@ if [ $stage -le 0 ]; then
 		--cmd "$train_cmd" --write-utt2num-frames true \
 		$inter_dir exp/make_mfcc $mfccdir
    	utils/fix_data_dir.sh $inter_dir
-
-fi
-
-
-# prepare features for X vector extraction
-if [ $stage -le 1 ]; then
 	
 	# Compute vad
 	sid/compute_vad_decision.sh  --cmd "$train_cmd" --nj 8 \
 	       	$inter_dir exp/make_vad $vaddir  
-	utils/fix_data_dir.sh $inter_dir # maybe only one fix_data_dir for compute_vad_decision and vad_to_segments?
+	utils/fix_data_dir.sh $inter_dir 
 	
+	# create segments file
+	diarization/vad_to_segments.sh  --cmd "$train_cmd" --nj 8 \
+		$inter_dir  $inter_dir/segmented
+	utils/fix_data_dir.sh $inter_dir
+	
+	mv $inter_dir/subsegments $inter_dir/segments # rename the segments 
+	
+
+fi
+
+
+# Now re-run the process to create X-Vectors features
+if [ $stage -le 1 ]; then
+	
+	# generate wav files and prep base datasets 
+	local/initData.py $data_dir $inter_dir
+	utils/fix_data_dir.sh $inter_dir
+
+	# generate MFCC features so that we can create the segments file 
+	steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --cmd "$train_cmd" --nj 8 \
+		--cmd "$train_cmd" --write-utt2num-frames true \
+		$inter_dir exp/make_mfcc $mfccdir
+   	utils/fix_data_dir.sh $inter_dir
+	
+	# Compute vad
+	sid/compute_vad_decision.sh  --cmd "$train_cmd" --nj 8 \
+	       	$inter_dir exp/make_vad $vaddir  
+	utils/fix_data_dir.sh $inter_dir 
 
 	# prepare features for x-vector training
 	local/prepare_feats.sh  --cmd "$train_cmd" --nj 8 \
@@ -51,13 +73,9 @@ if [ $stage -le 1 ]; then
 	cp $inter_dir/vad.scp data/cmn	
 	
 
-	# create segments file
-	diarization/vad_to_segments.sh  --cmd "$train_cmd" --nj 8 \
-		$inter_dir  data/cmn/segmented
-	utils/fix_data_dir.sh $inter_dir
-
-	# prepare our cepstral mean normalization for X-vector extraction
+	# move relevant files for cepstral mean normalization for X-vector extraction
 	cp $inter_dir/subsegments data/cmn/segments
+	cp $inter_dir/segmented data/cmn/segmented
 	utils/fix_data_dir.sh data/cmn
 	
 fi
