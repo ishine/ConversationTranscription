@@ -15,13 +15,18 @@ set -e
 
 mfccdir=$data_dir/mfcc
 vaddir=$data_dir/mfcc
-stage=0
+stage=3
 nnet_dir=$data_dir/nnet/0003_sre16_v2_1a/exp/xvector_nnet_1a
 num_components=1024 # the number of UBM components (used for VB resegmentation)
 ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
 
-# Generate Segments file 
+
 if [ $stage -le 0 ]; then
+# before starting remove already created files
+	[ -e data/cmn ] && rm -r data/cmn
+	[ -e $inter_dir ] && rm -r $inter_dir
+# Generate Segments file 
+
 	# generate wav files and prep base datasets 
 	local/initData.py $data_dir $inter_dir
 	utils/fix_data_dir.sh $inter_dir
@@ -50,7 +55,9 @@ fi
 
 # Now re-run the process to create X-Vectors features
 if [ $stage -le 1 ]; then
-	
+
+	#rm $inter_dir/feats.scp $inter_dir/vad.scp $inter_dir/utt2dur $inter_dir/utt2num_frames	
+
 	# generate wav files and prep base datasets 
 	local/initData.py $data_dir $inter_dir
 	utils/fix_data_dir.sh $inter_dir
@@ -74,8 +81,8 @@ if [ $stage -le 1 ]; then
 	
 
 	# move relevant files for cepstral mean normalization for X-vector extraction
-	cp $inter_dir/subsegments data/cmn/segments
-	cp $inter_dir/segmented data/cmn/segmented
+	cp $inter_dir/segments data/cmn/segments
+	cp -r  $inter_dir/segmented data/cmn/segmented
 	utils/fix_data_dir.sh data/cmn
 	
 fi
@@ -89,3 +96,15 @@ if [ $stage -le 2 ]; then
 fi
 
 
+# tune PLDA clustering and export diarization
+if [ $stage -le 3 ]; then
+       diarization/nnet3/xvector/score_plda.sh \
+		--cmd "$train_cmd" \
+		--target-energy 0.9 --nj 8 $data_dir/nnet/0003_sre16_v2_1a/exp/xvectors_sre_combined \
+		$nnet_dir/exp/xvectors $nnet_dir/exp/xvectors/plda_scores
+
+	diarization/cluster.sh --cmd "$train_cmd" --nj 8 \
+		--threshold .5 \
+		$nnet_dir/exp/xvectors/plda_scores \
+		$nnet_dir/exp/xvectors/plda_scores_speakers
+fi
