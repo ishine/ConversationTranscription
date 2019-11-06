@@ -49,6 +49,9 @@ if [ $stage -le 0 ]; then
 	
 	mv $inter_dir/subsegments $inter_dir/segments # rename the segments 
 	
+	# combine segments
+	local/combineSegments.py $inter_dir .5 4
+	
 
 fi
 
