@@ -1,8 +1,0 @@
-# compute-vad --config=conf/vad.conf scp:/home/alb2307/speech/project/ConversationTranscription/data/inter/split8/3/feats.scp ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/vad_inter.3.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/vad_inter.3.scp 
-# Started at Tue Nov  5 16:08:53 UTC 2019
-#
-compute-vad --config=conf/vad.conf scp:/home/alb2307/speech/project/ConversationTranscription/data/inter/split8/3/feats.scp ark,scp:/home/alb2307/speech/project/ConversationTranscription/data/mfcc/vad_inter.3.ark,/home/alb2307/speech/project/ConversationTranscription/data/mfcc/vad_inter.3.scp 
-LOG (compute-vad[5.5.516~1-a4de0]:main():compute-vad.cc:95) Applied energy based voice activity detection; processed 2862 utterances successfully; 0 had empty features, and 0 were completely unvoiced.
-LOG (compute-vad[5.5.516~1-a4de0]:main():compute-vad.cc:99) Proportion of voiced frames was 0.803563 over 1.73585e+06 frames.
-# Accounting: time=1 threads=1
-# Ended (code 0) at Tue Nov  5 16:08:54 UTC 2019, elapsed time 1 seconds
