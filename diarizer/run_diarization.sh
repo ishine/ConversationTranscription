@@ -13,9 +13,10 @@ inter_dir=`pwd`/data/inter
 . ./path.sh
 set -e
 
+rawdata=../rawData
 mfccdir=$data_dir/mfcc
 vaddir=$data_dir/mfcc
-stage=1
+stage=0
 nnet_dir=$data_dir/nnet/0006_callhome_diarization_v2_1a/exp/xvector_nnet_1a
 num_components=1024 # the number of UBM components (used for VB resegmentation)
 ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
@@ -28,7 +29,7 @@ if [ $stage -le 0 ]; then
 # Generate Segments file 
 
 	# generate wav files and prep base datasets 
-	local/initData.py $data_dir/CallHome $inter_dir
+	local/initData.py $rawdata/CallHome $inter_dir
 	utils/fix_data_dir.sh $inter_dir
 
 	# generate MFCC features so that we can create the segments file 
