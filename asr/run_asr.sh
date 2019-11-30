@@ -15,9 +15,11 @@ nnetdir=$datadir/nnet/aspire_ASR
 
 lmdir=$nnetdir/data/lang_pp_test
 ivectordir=$nnetdir/exp/nnet3
+graphdir=$nnetdir/exp/chain/tdnn_7b/graph_pp
+
 
 stage=0
-
+expandLM=true
 
 if [ $stage -le '0' ]; then
 	# move our relevant data 
@@ -31,12 +33,43 @@ if [ $stage -le '0' ]; then
 	mv $inputdir/wav.tmp $inputdir/wav.scp
 fi
 
+if [ "$expandLM" = true ]; then
+	echo "Initiate LM Expansion"
+	lmsrc=$nnetdir/data/local/new_lang
+	dictsrc=$nnetdir/data/local/new_dict
+	
+	dictdir=$nnetdir/data/new_lm
+	lmdir=$nnetdir/data/new_lm
+	mkdir -p dictdir
+	mkdir -p lmdir
+
+	# expand the language model
+	# update lmExpansion so that it takes lmsrc and dictsrc as parameters
+	bash lmExpansion.sh
+
+	# Compile the word lexicon (L.fst)
+	utils/prepare_lang.sh --phone-symbol-table $graphdir/phones.txt \
+	       	$dictsrc "" {$dictsrc}_tmp $dictdir
+
+	# Compile the grammar/language model (G.fst)
+	gzip  -f $lmsrc/lm.arpa
+	#gunzip -c $lmsrc/lm.arpa.gz \
+	#	  | egrep -v '<s> <s>|</s> <s>|</s> </s>|-1.573359|<s>|<\s>' \
+	#	  | gzip -c > $lmsrc/lm_out.arpa.gz
+	#mv $lmsrc/lm_out.arpa.gz $lmsrc/lm.arpa.gz
+
+	utils/format_lm.sh $dictdir $lmsrc/lm.arpa.gz $dictsrc/lexicon.txt $lmdir	
+	
+	# generate the new graph dir where we store everything
+	graphdir=$nnetdir/exp/chain/tdnn_7b/new_graph
+	mkdir -p graphdir
+fi
 
 # compute our cmvn statistics
 if [ $stage -le '1' ]; then
 
-	utils/mkgraph.sh --self-loop-scale 1.0 $nnetdir/data/lang_pp_test \
-		$nnetdir/exp/chain/tdnn_7b $nnetdir/exp/chain/tdnn_7b/graph_pp
+	utils/mkgraph.sh --self-loop-scale 1.0 $lmdir \
+		$nnetdir/exp/chain/tdnn_7b $graphdir
 
 	steps/make_mfcc.sh --mfcc-config conf/mfcc_hires.conf --cmd "$train_cmd" --nj 8 \
 		--write-utt2num-frames true $inputdir $mfccdir/log $mfccdir
@@ -58,7 +91,7 @@ if [ $stage -le '3' ]; then
 	echo "Decoding"
 	steps/nnet3/decode.sh --nj 8 --cmd "$train_cmd" --config conf/decode.config \
 		--acwt 1.0 --post-decode-acwt 10.0 --online-ivector-dir $datadir/ivectors \
-		$nnetdir/exp/chain/tdnn_7b/graph_pp $inputdir $nnetdir/exp/chain/tdnn_7b/decode
+		$graphdir $inputdir $nnetdir/exp/chain/tdnn_7b/decode
 
 	
 

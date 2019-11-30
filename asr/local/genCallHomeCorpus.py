@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Sat Nov 23 15:36:03 2019
@@ -16,7 +17,7 @@ import os, re, sys
 import string
 
 def cleanFile(file):
-    lines = open(transcription_dir + "/" + file, "r").readlines()
+    lines = open(transcription_dir + "/" + file, "r", encoding = "utf-8").readlines()
 
     # begin to clean the file
     lines = lines[8:]
@@ -33,13 +34,14 @@ def cleanFile(file):
 if __name__ == "__main__":
     
     transcription_dir = sys.argv[1]
+    print(sys.argv)
     output_dir = sys.argv[2]
     
     files = os.listdir(transcription_dir)
     files = [file for file in files if re.search("cha", file)]
     
     corpus = [cleanFile(file) for file in files]
-    '\n'.join([text for text in corpus])
+    corpus = '\n'.join([text for text in corpus])
     
     open(output_dir + "/corpus.txt", "w").writelines(corpus)
     
