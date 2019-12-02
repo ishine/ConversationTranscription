@@ -28,9 +28,17 @@ if [ $stage -le '0' ]; then
 	utils/copy_data_dir.sh ../diarizer/data/cmn $inputdir 
 	cp ../diarizer/data/nnet/0006_callhome_diarization_v2_1a/exp/xvector_nnet_1a/exp/xvectors/plda_scores_speakers/rttm $inputdir/rttm # moves diarization results
 
+	# convert rttm file to segments file
+	python local/RTTM2Files.py $inputdir
+	
 	# downsample wav files to 8khz
-	sed 's/16000/8000/g' $inputdir/wav.scp > $inputdir/wav.tmp
+        sed 's/16000/8000/g' $inputdir/wav.scp > $inputdir/wav.tmp
 	mv $inputdir/wav.tmp $inputdir/wav.scp
+
+	steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --cmd "$train_cmd" --nj 8 \
+	               --cmd "$train_cmd" --write-utt2num-frames true \
+	                $inputdir exp/make_mfcc $mfccdir
+	utils/fix_data_dir.sh $inputdir
 fi
 
 if [ "$expandLM" = true ]; then
