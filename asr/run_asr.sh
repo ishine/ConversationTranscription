@@ -19,29 +19,32 @@ graphdir=$nnetdir/exp/chain/tdnn_7b/graph_pp
 
 
 stage=0
-expandLM=true
+expandLM=false
 
 if [ $stage -le '0' ]; then
 	# move our relevant data 
-	#mkdir $inputdir
+	mkdir -p $inputdir
 	#cp -a ../diarizer/data/cmn/. $inputdir/ # moves segments utt2speak and such
-	utils/copy_data_dir.sh ../diarizer/data/cmn $inputdir 
+	#utils/copy_data_dir.sh ../diarizer/data/cmn $inputdir 
 	cp ../diarizer/data/nnet/0006_callhome_diarization_v2_1a/exp/xvector_nnet_1a/exp/xvectors/plda_scores_speakers/rttm $inputdir/rttm # moves diarization results
+	cp ../diarizer/data/cmn/wav.scp $inputdir/wav.scp
 
 	# convert rttm file to segments file
 	python local/RTTM2Files.py $inputdir
-	
+	utils/fix_data_dir.sh $inputdir
+
+
 	# downsample wav files to 8khz
         sed 's/16000/8000/g' $inputdir/wav.scp > $inputdir/wav.tmp
 	mv $inputdir/wav.tmp $inputdir/wav.scp
 
-	steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --cmd "$train_cmd" --nj 8 \
-	               --cmd "$train_cmd" --write-utt2num-frames true \
-	                $inputdir exp/make_mfcc $mfccdir
-	utils/fix_data_dir.sh $inputdir
+	#steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --cmd "$train_cmd" --nj 8 \
+	#               --cmd "$train_cmd" --write-utt2num-frames true \
+	#                $inputdir exp/make_mfcc $mfccdir
+	#utils/fix_data_dir.sh $inputdir
 fi
 
-if [ "$expandLM" = true ]; then
+if [ "$expandLM" = true ] && [ $stage -le '1' ]; then
 	echo "Initiate LM Expansion"
 	lmsrc=$nnetdir/data/local/new_lang
 	dictsrc=$nnetdir/data/local/new_dict
@@ -84,6 +87,11 @@ if [ $stage -le '1' ]; then
 
 	steps/compute_cmvn_stats.sh $inputdir
 	utils/fix_data_dir.sh $inputdir
+
+	# prepare features for x-vector training
+	local/prepare_feats.sh  --cmd "$train_cmd" --nj 8 \
+	                $input_dir data/cmn exp/cmn
+	utils/fix_data_dir.sh $input_dir
 fi
 
 # extract ivectors
