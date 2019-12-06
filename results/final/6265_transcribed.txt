@@ -1,0 +1,412 @@
+Start Time (Hour:Min:Secs)	End Time (Hour:Min:Secs)	Speaker ID	Transcribed Text
+00:00:00	00:00:01	2	hello 
+00:00:01	00:00:03	1	oh my this is going to be odd 
+00:00:03	00:00:04	2	excuse me it's odd 
+00:00:04	00:00:05	1	they're recording 
+00:00:05	00:00:07	2	<unk> no 
+00:00:07	00:00:08	1	no okay 
+00:00:08	00:00:10	2	okay 
+00:00:10	00:00:12	1	[laughter] 
+00:00:12	00:00:16	2	so what's <unk> 
+00:00:16	00:00:32	2	um um looking and i just got all this information on morocco and so i'm looking at that and it looks like a color place but parents don't like it very much 'cause it's very dangerous 
+00:00:32	00:00:34	1	[laughter] 
+00:00:34	00:00:37	2	really excited what are you doing 
+00:00:37	00:00:44	1	oh she's sleeping yeah finals or anything 
+00:00:51	00:00:56	1	my first [noise] 
+00:00:56	00:00:58	2	and then i have two on once uh 
+00:00:58	00:01:00	1	mhm 
+00:01:00	00:01:02	2	and uh 
+00:01:02	00:01:02	1	mhm 
+00:01:02	00:01:11	2	no prejudice been studying during whatever [noise] hold on real close 
+00:01:11	00:01:12	1	sure 
+00:01:12	00:01:24	2	mhm 
+00:01:24	00:01:26	1	sit for a long time 
+00:01:26	00:01:31	2	mhm 
+00:01:31	00:01:32	1	mhm 
+00:01:32	00:01:36	2	mhm 
+00:01:36	00:01:37	1	train long 
+00:01:37	00:01:48	2	okay hello hi um so where where have you been 
+00:01:48	00:01:49	1	um 
+00:01:49	00:02:03	2	oh just in paris really just kind of stuck here not able to go and continue my journey the way i thought that they would go but that's been fine my parents were here for a while 
+00:02:03	00:02:04	1	really 
+00:02:04	00:02:10	2	yeah we went to the country and ate really good meals and [noise] 
+00:02:10	00:02:11	1	[noise] <unk> 
+00:02:11	00:02:16	2	<unk> nice places [laughter] so that was nice um 
+00:02:16	00:02:18	1	and now dark she's parents are here so 
+00:02:18	00:02:25	2	more nice meals mm [laughter] um i went to a store for last night it was open all night 
+00:02:25	00:02:27	1	[laughter] 
+00:02:27	00:02:34	2	i got a pancake tasted like uh right [laughter] you like bread so much 
+00:02:34	00:02:37	1	oh yeah it was nice round right 
+00:02:37	00:02:42	2	[laughter] tell me more things about there 
+00:02:42	00:02:47	1	[noise] oh cool 
+00:02:47	00:02:50	2	it's cold there yes very snowed 
+00:02:50	00:02:54	1	[noise] oh sauce it's snowing like every couple of days 
+00:02:54	00:02:56	2	wow 
+00:02:56	00:02:59	1	but i mean and then melting right away 
+00:02:59	00:03:01	2	have you played in it 
+00:03:01	00:03:05	1	oh yeah [laughter] that was a matter of fact 
+00:03:05	00:03:15	2	uh uh 
+00:03:19	00:03:31	2	what was sleeping oh it's a week [laughter] [noise] i'm glad because i was very cool um 
+00:03:34	00:03:38	2	no i don't really i don't know for males working 
+00:03:38	00:03:39	1	[noise] oh 
+00:03:39	00:03:42	2	it's really like a revolution here 
+00:03:55	00:03:59	1	oh spain or you go over going back 
+00:03:59	00:04:07	2	yeah but i'm coming back here for a couple of days before i go to israel okay so i'll get it for sure 
+00:04:07	00:04:11	1	[noise] it's too early to spin on once 
+00:04:11	00:04:12	2	mhm 
+00:04:12	00:04:14	1	oh where 
+00:04:14	00:04:23	2	oh madrid and so yeah and um all sorts of places [noise] well i <unk> i can we're staying with her parents 
+00:04:23	00:04:25	1	oh she's <unk> 
+00:04:25	00:04:37	2	yeah um like i was going to go down to the south of france and then go to spain by myself for a while before meeting up with her family but i couldn't get out of paris 
+00:04:37	00:04:37	1	right 
+00:04:37	00:04:45	2	to get there so i've i'm really hanging out with family a lot [noise] uh that's kinda bad about it but that's the way it is 
+00:04:45	00:04:47	1	is it like you 
+00:04:47	00:05:08	2	yeah they like me i mean i'm in my whole adult that they have to feed and you know care for fun i feel bad [laughter] it's been going like people have been feeding me caring for me a lot around here and i really don't know how to feel about it like i could do it myself but it's just the situation 
+00:05:08	00:05:09	1	[noise] 
+00:05:16	00:05:21	2	i guess you get what you need or you get what you are so 
+00:05:21	00:05:25	1	yeah are we getting nothing 
+00:05:25	00:05:28	2	[laughter] 
+00:05:31	00:05:34	1	[laughter] 
+00:05:34	00:05:35	2	no i can't 
+00:05:35	00:05:42	1	that's true just thing i remember last night chess and give me two bucks to get into stuffer [laughter] 
+00:05:42	00:05:45	2	[noise] get rough but 
+00:05:45	00:05:47	1	just as good like that 
+00:05:47	00:05:49	2	oh yeah 
+00:05:49	00:05:52	1	mhm [noise] 
+00:05:52	00:06:18	2	um the last time i talk to you that night like all sorts of really bad things um <unk> happen to darcy people the next couple of days people were like like she saw um a man in the window jacking off and and then we were at the jazz place it was crazy man just like a clown of some sort [noise] was harassing knows and 
+00:06:20	00:06:31	2	ran up to her and [noise] grab like all sorts of horrible things happen [noise] really bad things [laughter] 
+00:06:34	00:06:36	1	[laughter] i don't know 
+00:06:36	00:06:51	2	i talk to you [noise] and we're like oh i don't know anyone in france all right [laughter] i know i know [laughter] 
+00:06:51	00:06:54	1	yeah so i sent you this thing of actually about 
+00:06:54	00:07:01	2	like a week or two ago mhm and they said it takes seven days 'cause they say that uh 
+00:07:01	00:07:02	1	mhm 
+00:07:02	00:07:03	2	mhm mhm 
+00:07:03	00:07:05	1	mhm well hopefully i'll get up 
+00:07:05	00:07:10	2	[noise] really hope 
+00:07:10	00:07:12	1	[noise] um 
+00:07:12	00:07:15	2	a letter of sorts 
+00:07:15	00:07:17	1	it's a book and there's a lot or 
+00:07:17	00:07:34	2	[noise] the book yeah wow thank you happy hanukkah it can be hanukkah mhm yeah so [laughter] 
+00:07:34	00:07:36	1	uh i don't 
+00:07:36	00:07:38	2	i don't know 
+00:07:38	00:07:40	1	a lot of stuff to do this week 
+00:07:40	00:07:45	2	kinda weird i don't know if i've been doing it or not 
+00:07:45	00:07:49	1	are you doing okay mhm in school 
+00:07:49	00:07:57	2	[noise] [laughter] you see so you're just so concerned yeah i'm doing fine like i'm not doing great you know 
+00:07:57	00:08:02	1	but i'm doing well enough to do okay 
+00:08:02	00:08:12	2	this is your little glass cost to the <unk> [laughter] 
+00:08:12	00:08:14	1	she getting angry 
+00:08:14	00:08:16	2	uh-huh somebody getting [noise] that's okay 
+00:08:16	00:08:18	1	excuse me 
+00:08:18	00:08:27	2	nothing they're like people are waiting lots of people waiting actually use the phone yeah [laughter] really yeah 
+00:08:27	00:08:29	1	call from somewhere 
+00:08:29	00:08:35	2	'cause there aren't many phones [noise] i'm sorry um is there any way that you could do the thing again 
+00:08:35	00:08:37	1	no it's a one time deal 
+00:08:37	00:08:39	2	yeah 
+00:08:39	00:08:40	1	oh don't worry about it 
+00:08:40	00:08:43	2	they're not going to go crazy on er 
+00:08:43	00:08:44	1	going to go crazy but 
+00:08:44	00:08:50	2	or are they all i know they stop yelling he just loves to throw things though 
+00:08:50	00:08:55	1	mhm [laughter] whatsoever 
+00:08:55	00:08:57	2	[noise] um 
+00:08:57	00:09:03	1	but you have anything to important to say to me before he died 
+00:09:03	00:09:09	2	um good luck on your [laughter] 
+00:09:09	00:09:11	1	oh she's thanks 
+00:09:11	00:09:12	2	[laughter] 
+00:09:12	00:09:14	1	mhm 
+00:09:14	00:09:15	2	mhm 
+00:09:15	00:09:18	1	so you can only use this one's 
+00:09:18	00:09:25	2	uh that's what they say um 
+00:09:25	00:09:27	2	yes i believe but 
+00:09:27	00:09:29	1	don't talk about that 
+00:09:29	00:09:33	2	okay you tell me things [noise] 
+00:09:33	00:09:38	1	[noise] i'm moving soon 
+00:09:38	00:09:41	2	oh yes very good 
+00:09:44	00:09:46	2	uh-huh 
+00:09:46	00:09:51	1	mhm 
+00:09:51	00:09:56	2	it's <unk> uh nothing i don't know 
+00:10:01	00:10:04	1	come up come up all the time 
+00:10:04	00:10:11	2	people ask about you 
+00:10:12	00:10:15	2	i tell them and make up lies 
+00:10:15	00:10:19	1	[laughter] right right mhm 
+00:10:19	00:10:26	2	'cause i don't want them to know where you tell them that your call the way 
+00:10:26	00:10:27	1	on some kind of uh 
+00:10:27	00:10:30	2	thing 
+00:10:30	00:10:37	2	had to go somewhere [laughter] i go to a very vague [laughter] it's very funny 
+00:10:37	00:10:38	1	mhm 
+00:10:38	00:10:39	2	hello 
+00:10:39	00:10:42	1	where 
+00:10:51	00:10:54	1	mhm 
+00:10:54	00:11:00	2	where's your <unk> uh <unk> not to the phone in alabama 
+00:11:00	00:11:03	1	you must 
+00:11:03	00:11:10	2	[noise] what are they saying 
+00:11:10	00:11:13	1	now what do you say i have to keep saying i'm driving them crazy 
+00:11:13	00:11:14	2	[laughter] 
+00:11:14	00:11:16	1	god anthony 
+00:11:16	00:11:18	2	speaking so crazy 
+00:11:18	00:11:23	1	how are you want to go look for another 
+00:11:23	00:11:38	2	'cause there are enough phones in the city they're on strike so [laughter] revolution yeah [laughter] [noise] <unk> oh okay 
+00:11:38	00:11:44	1	so i can it's it's sad sometimes around here it's very sad and grey alive 
+00:11:44	00:11:49	2	wow <unk> 
+00:11:49	00:11:53	1	the weather really the weather 
+00:11:53	00:11:55	2	yeah 
+00:11:55	00:11:57	1	uh-huh 
+00:11:57	00:12:01	2	oh because 
+00:12:15	00:12:19	2	right you remember this i told you about how i was confused by it 
+00:12:19	00:12:27	1	confused and and and and bothered by it like that uh so what happened again with wood dorothy 
+00:12:27	00:12:29	2	and it just like 
+00:12:29	00:12:29	1	mhm 
+00:12:29	00:12:41	2	uh instead of getting confused i just kinda looked and um and everything like crumbled crumble down and everything turned into me like everywhere i looked 
+00:12:41	00:12:42	1	and um 
+00:12:42	00:12:47	2	it was quite [noise] quite an awakening but 
+00:12:47	00:12:51	1	it's uh it's so much it was really 
+00:12:51	00:13:09	2	[noise] upsetting if i were to think about it but other than that it wasn't very upsetting i'd just finished reading the way of then by ah what ah what ah and i think that had a lot to do with it but um 
+00:13:14	00:13:17	2	really like yeah 
+00:13:17	00:13:21	1	and that was just a couple of days ago [laughter] but the last couple of days 
+00:13:21	00:13:23	2	things have been kind of yucky 
+00:13:23	00:13:24	1	[noise] but i'm glad 
+00:13:24	00:13:37	2	it happened like i'm glad that um i looked at it um everything really was clear it's very clear 
+00:13:45	00:13:46	1	oh really 
+00:13:46	00:13:50	2	maybe not [laughter] 
+00:13:50	00:13:51	1	mhm 
+00:13:51	00:13:55	2	um because if they ask you what can i can call you back 
+00:13:55	00:13:57	1	snip unnecessary 
+00:13:57	00:14:00	2	oh yeah [laughter] 
+00:14:00	00:14:01	1	uh-huh 
+00:14:01	00:14:11	2	[noise] oh that's happened and then i read the outcome is yesterday if you read that it's very good book 
+00:14:11	00:14:12	1	who 
+00:14:12	00:14:18	2	uh <unk> some <unk> hello can you do 
+00:14:18	00:14:20	1	no no no no 
+00:14:20	00:14:23	2	well i don't know but the but [laughter] 
+00:14:23	00:14:25	1	[laughter] 
+00:14:25	00:14:28	2	but it really 
+00:14:28	00:14:30	1	that happening helped me to understand 
+00:14:30	00:14:47	2	things a bit better and to not be like after talking to you on the phone and and all that bad stuff happened i was like what's up with anthony why would he be sending is bad stuff but but the up and it really clear better 
+00:14:47	00:14:49	1	and why am i 
+00:14:49	00:14:53	2	it's not you like it's to me it's fine 
+00:14:53	00:14:58	1	no no it's me everything [laughter] just because of me 
+00:14:58	00:15:00	2	both because to me 
+00:15:00	00:15:01	1	uh-huh 
+00:15:01	00:15:02	2	same thing 
+00:15:02	00:15:06	1	research then [laughter] just kidding i don't know 
+00:15:06	00:15:11	2	[laughter] it's stupid i'm just trying to be stupid i mean i'm like succeeding 
+00:15:20	00:15:23	1	oh <unk> that's <unk> 
+00:15:32	00:15:34	2	um can i ask you something 
+00:15:34	00:15:36	1	yes 
+00:15:36	00:15:48	2	i had been like last week or before that i've been having truthfully um fantasies about alexis and remember i told you that that happened like last christmas 
+00:15:48	00:15:50	1	okay but that was kind of happened 
+00:15:50	00:15:51	2	yes 
+00:15:51	00:16:00	1	and i really don't understand why at all which you happen to know any reason why i would be what's your take on it 
+00:16:00	00:16:02	2	mhm 
+00:16:04	00:16:05	1	[laughter] 
+00:16:28	00:16:28	2	mhm 
+00:16:29	00:16:32	1	[noise] i don't know 
+00:16:32	00:16:34	2	i don't know 
+00:16:37	00:16:39	2	maybe it's my conscience 
+00:16:41	00:16:44	1	that mean huh what does that mean 
+00:16:44	00:16:46	2	i don't know 
+00:16:49	00:16:51	2	mhm 
+00:16:51	00:16:51	1	mhm 
+00:16:54	00:17:00	2	i can't imagine why it would be that way like why that would happen 
+00:17:00	00:17:01	1	mhm 
+00:17:02	00:17:04	1	mhm 
+00:17:04	00:17:09	2	and so i try to start to imagine why 
+00:17:09	00:17:10	1	and 
+00:17:16	00:17:19	2	and i think about the time when um 
+00:17:19	00:17:20	1	mhm 
+00:17:22	00:17:23	1	pardon 
+00:17:23	00:17:24	2	mhm 
+00:17:24	00:17:27	1	like you told me that like freshman year 
+00:17:27	00:17:30	2	before we were 
+00:17:30	00:17:32	1	we're really together 
+00:17:32	00:17:35	2	that that you are in a lexus wouldn't like 
+00:17:35	00:17:37	1	mhm 
+00:17:37	00:17:38	2	think of ways 
+00:17:38	00:17:40	1	mhm 
+00:17:40	00:17:45	1	or some such to know what i'm talking about yes i remember atari i don't remember 
+00:17:45	00:17:54	2	what i was talking about i didn't tell you really [laughter] and yeah 
+00:17:54	00:17:58	1	you didn't ever really tell me what <unk> 
+00:17:58	00:18:01	2	i mean i'm not sure what you're talking about 
+00:18:01	00:18:11	1	well i'm just wondering if if the fact that you all did that had it's anything to do with the fact that i have um strange dreams with alexis 
+00:18:11	00:18:19	2	i don't know why you do okay that would be the only reason i can thank god 
+00:18:19	00:18:20	1	mhm 
+00:18:24	00:18:26	1	mhm 
+00:18:29	00:18:32	2	[laughter] maybe he's doing it 
+00:18:32	00:18:33	1	mhm 
+00:18:33	00:18:36	2	mhm 
+00:18:36	00:18:39	1	well i definitely think that i'm doing it but um 
+00:18:39	00:18:40	2	mhm 
+00:18:40	00:18:42	1	i can't imagine why or what 
+00:18:42	00:18:47	2	are they bothersome 
+00:18:47	00:18:49	1	just 
+00:18:49	00:18:52	2	strange just like where did that come from 
+00:18:52	00:18:54	1	mhm 
+00:18:57	00:19:00	2	and i'm quite sure that it's 
+00:19:00	00:19:08	1	you like about you [noise] so how it has 
+00:19:15	00:19:17	2	um 
+00:19:18	00:19:20	1	i've been spending some time 
+00:19:24	00:19:34	2	um i don't know if you know or uh i mean it's nothing really but you know i wanted to tell you what's your name 
+00:19:34	00:19:36	1	hi my name's tania 
+00:19:36	00:19:37	2	tania 
+00:19:37	00:19:40	1	mhm 
+00:19:40	00:19:42	2	<unk> 
+00:19:42	00:19:44	1	[noise] <unk> 
+00:19:44	00:19:49	2	i don't i don't know it's like i was talking to her 
+00:19:58	00:19:59	1	i don't 
+00:19:59	00:20:00	2	mhm 
+00:20:03	00:20:05	2	mhm 
+00:20:05	00:20:06	1	mhm 
+00:20:10	00:20:11	1	mhm 
+00:20:18	00:20:21	2	and one time because 
+00:20:21	00:20:23	1	mhm 
+00:20:26	00:20:27	1	but 
+00:20:27	00:20:28	2	uh-huh 
+00:20:30	00:20:31	1	i don't know 
+00:20:31	00:20:33	2	yeah 
+00:20:34	00:20:38	2	mhm 
+00:20:49	00:20:50	1	mhm 
+00:20:50	00:20:51	2	mhm 
+00:20:51	00:20:52	2	hello 
+00:20:52	00:20:54	1	hi 
+00:20:54	00:20:59	2	mhm um 
+00:21:02	00:21:03	1	that's good to hear 
+00:21:03	00:21:08	2	[laughter] yeah mhm 
+00:21:09	00:21:11	1	is it 
+00:21:11	00:21:13	2	yeah 
+00:21:15	00:21:16	1	wow 
+00:21:16	00:21:17	2	mhm 
+00:21:20	00:21:23	1	yeah 
+00:21:23	00:21:26	2	it's a nice thing to have going on 
+00:21:26	00:21:29	1	mhm 
+00:21:31	00:21:35	2	and i want you to have nice things going on 
+00:21:35	00:21:36	1	mhm 
+00:21:41	00:21:41	1	mhm 
+00:21:41	00:21:47	2	yeah i do 
+00:21:47	00:21:54	1	[noise] i tried to send nice things there and and i hope that my trying to send nice things 
+00:21:54	00:22:00	2	materialized into several things including her 
+00:22:00	00:22:01	1	mhm 
+00:22:03	00:22:04	1	mhm 
+00:22:04	00:22:04	2	mhm 
+00:22:05	00:22:06	1	mhm mhm 
+00:22:06	00:22:08	2	mhm 
+00:22:16	00:22:17	1	mhm 
+00:22:25	00:22:25	2	mhm 
+00:22:27	00:22:30	2	she's just nice 
+00:22:30	00:22:32	1	mhm 
+00:22:32	00:22:34	2	you know hard to 
+00:22:34	00:22:37	1	talk to all these boys all the time 
+00:22:37	00:22:41	2	[laughter] yeah i can imagine 
+00:22:41	00:22:42	1	there are so crude 
+00:22:42	00:22:44	2	hi my name is <unk> 
+00:22:57	00:22:58	1	mhm 
+00:22:58	00:22:59	2	mhm 
+00:23:00	00:23:01	1	mhm 
+00:23:01	00:23:02	2	mhm 
+00:23:13	00:23:14	1	mhm 
+00:23:14	00:23:16	2	mhm 
+00:23:28	00:23:29	1	hi 
+00:23:29	00:23:31	2	mhm 
+00:23:33	00:23:33	2	mhm 
+00:23:36	00:23:37	2	mhm 
+00:23:37	00:23:38	1	mhm 
+00:23:38	00:23:41	2	mhm 
+00:23:47	00:23:48	1	mhm 
+00:23:52	00:23:54	1	i guess yeah 
+00:23:54	00:23:55	2	mhm 
+00:23:57	00:24:00	2	yeah learning a lot 
+00:24:04	00:24:05	1	mhm 
+00:24:05	00:24:08	2	sometimes it turns out that it's been a lot 
+00:24:08	00:24:09	1	mhm 
+00:24:20	00:24:25	1	even care about you know but nonetheless it's all 
+00:24:26	00:24:28	1	yeah 
+00:24:28	00:24:31	2	i guess or taking away 
+00:24:33	00:24:34	1	mhm 
+00:24:34	00:24:35	2	let's see how that turned out 
+00:24:42	00:24:45	1	[laughter] 
+00:24:45	00:24:46	2	mhm 
+00:24:46	00:24:49	1	learn to uh learn to ethical behavior 
+00:24:49	00:24:52	2	ethical behavior 
+00:24:52	00:24:57	1	mhm i took an ethics course semester you know 
+00:24:57	00:24:58	1	mhm 
+00:24:59	00:25:03	2	but it was it was actually i thought it was pretty informative 
+00:25:19	00:25:20	1	mhm 
+00:25:20	00:25:21	1	yeah 
+00:25:21	00:25:23	2	i kinda do that 
+00:25:25	00:25:26	2	mhm 
+00:25:26	00:25:30	1	i really enjoyed being around you must all the time 
+00:25:30	00:25:38	2	really mhm mm i must have been mine joint wearing 
+00:25:40	00:25:40	1	mhm 
+00:25:42	00:25:43	1	mhm 
+00:26:00	00:26:01	1	mhm 
+00:26:01	00:26:02	2	mhm 
+00:26:03	00:26:05	1	most of the time 
+00:26:05	00:26:06	2	mhm 
+00:26:06	00:26:08	1	so like 
+00:26:08	00:26:08	2	mhm 
+00:26:10	00:26:11	1	mhm 
+00:26:11	00:26:14	2	the question 
+00:26:14	00:26:16	2	<unk> you know what you're doing 
+00:26:16	00:26:19	1	whatever 
+00:26:19	00:26:20	2	just because 
+00:26:21	00:26:25	2	like i can't even baskets 
+00:26:25	00:26:27	1	like casually you know 
+00:26:30	00:26:33	2	hi kevin 
+00:26:33	00:26:34	1	mhm mhm 
+00:26:34	00:26:41	2	really talk about it that way 'cause there's so many other things [laughter] 
+00:26:41	00:26:42	1	[noise] 
+00:26:42	00:26:44	2	mhm 
+00:26:44	00:26:46	1	mhm 
+00:26:51	00:26:56	1	it would probably be good to talk about it in a non casual 
+00:26:56	00:27:00	2	mm i did once 
+00:27:03	00:27:09	2	and i'd after you left or tell you about that 
+00:27:09	00:27:09	1	wow 
+00:27:09	00:27:12	2	right before you left 
+00:27:16	00:27:18	2	yeah 
+00:27:18	00:27:22	1	yeah those those bad night 
+00:27:22	00:27:23	2	mhm 
+00:27:23	00:27:25	1	mhm 
+00:27:25	00:27:25	2	mhm 
+00:27:27	00:27:28	1	mhm 
+00:27:29	00:27:30	1	uh-huh 
+00:27:30	00:27:30	2	mhm 
+00:27:32	00:27:35	2	very very um i agree and 
+00:27:35	00:27:36	1	crazy 
+00:27:40	00:27:45	2	[noise] stuff yeah and um 
+00:27:48	00:27:49	1	yeah kind of 
+00:27:49	00:27:52	2	same same with mine 
+00:27:53	00:27:55	1	and uh 
+00:27:55	00:28:00	2	oh cool right there 
+00:28:01	00:28:02	1	mhm 
+00:28:02	00:28:02	2	mhm 
+00:28:05	00:28:06	2	mhm 
+00:28:07	00:28:09	2	mhm 
+00:28:09	00:28:12	1	after that i mean 
+00:28:14	00:28:15	1	it's like 
+00:28:15	00:28:16	2	mhm 
+00:28:17	00:28:23	2	came over me like for for a while for like a couple of weeks 
+00:28:24	00:28:25	1	mhm 
+00:28:25	00:28:26	1	and then 
+00:28:26	00:28:27	2	uh-huh 
+00:28:29	00:28:31	1	i don't know 
+00:28:31	00:28:31	2	mhm 
+00:28:32	00:28:34	1	mhm 
+00:28:35	00:28:38	2	unless they're degrees 
+00:28:38	00:28:40	1	yeah they're 
+00:28:40	00:28:47	2	stuff like that and i kind of happened again but not really 
+00:28:47	00:28:49	1	like that and 
+00:28:49	00:28:53	2	but recently i've been all right i like recently everything's been fine 
+00:28:53	00:28:54	1	mhm 
+00:28:54	00:28:55	2	nothing too extreme 
+00:29:01	00:29:03	1	uh-huh 
+00:29:09	00:29:14	1	like like people wouldn't listen to me 
+00:29:14	00:29:17	2	[noise] um 
+00:29:18	00:29:21	2	[laughter] you know then 
+00:29:23	00:29:26	1	mhm 
+00:29:26	00:29:36	2	people can't i can't really who could i speak to other than like who can i speak to more than casually like something that <unk> that it's like 
+00:29:40	00:29:45	2	so personally affecting me that they could have no idea how 
+00:29:45	00:29:47	1	[laughter] 
+00:29:47	00:29:49	2	without like meat 
+00:29:49	00:29:50	1	mhm 
+00:29:50	00:29:52	2	like 
+00:29:52	00:29:53	1	mhm 
+00:29:58	00:29:59	1	and it's like 

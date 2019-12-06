@@ -1,0 +1,305 @@
+Start Time (Hour:Min:Secs)	End Time (Hour:Min:Secs)	Speaker ID	Transcribed Text
+00:00:00	00:00:04	2	mm publicly distributed that sounds interesting 
+00:00:04	00:00:05	1	[laughter] 
+00:00:05	00:00:08	2	well i think i'll go for it 
+00:00:08	00:00:13	1	right no no exciting conversation 
+00:00:13	00:00:24	2	[laughter] well i was wondering how much uh we'd be able to talk about if your family's around anyway well they'll just have to live with it [laughter] 
+00:00:24	00:00:32	1	yeah so well let's see now where did we leave off 
+00:00:32	00:00:38	2	oh gee i guess i could start with your email address 
+00:00:38	00:00:40	1	oh my email it does 
+00:00:40	00:00:41	2	yeah 
+00:00:41	00:00:47	1	you can reach me at uh rio diet a._o._l. dot com 
+00:00:47	00:00:56	2	um yeah i tried sending something to you on that d._w._i. e._e._o. at a._o._l. 
+00:00:56	00:01:00	1	d. w. e. l. yeah at a._o._l. dot com 
+00:01:00	00:01:15	2	dot com yeah okay that work well i sent it so let me know if you receive it right i didn't get any message back saying a user unknown or whatever it is a known address 
+00:01:15	00:01:17	1	okay 
+00:01:17	00:01:19	2	so i presume that it went through 
+00:01:19	00:01:20	1	mhm 
+00:01:20	00:01:30	2	[noise] and ah you were saying that uh that's uh one of <unk> andersons yet like an idea of of his a._o._l. account 
+00:01:30	00:01:33	1	mhm so 
+00:01:35	00:01:40	1	my friend ridge scranton sent me he's writing some software for this guy whose part of the uh 
+00:01:40	00:01:58	2	low ball he's got this thing called the global [noise] or something or other network and it's a multi level marketing um internet service 
+00:01:58	00:02:01	1	kind of thing mhm 
+00:02:01	00:02:11	2	but so i might get onto the net that way and um [noise] you know i'll let you know says that address becomes 
+00:02:11	00:02:13	1	oh okay 
+00:02:13	00:02:18	2	there's also supposedly you know a magazine lifting all of the 
+00:02:18	00:02:25	2	internet service providers here in denver which i need to still look over 
+00:02:25	00:02:30	1	mm how <unk> what those um cost 
+00:02:30	00:02:59	2	uh generally uh runs about yeah i've heard of things as low as twenty dollars a month actually there's this one place the bulletin board which allows uh they're i guess trying to attract new people so it's like twenty five dollars for the first year but in general i think syria is um access providers generally charge about twenty dollars a month 
+00:02:59	00:03:01	1	nice 
+00:03:01	00:03:36	2	right you can go up from their depending on how much volume you expect to be using uh last year it was like seventy five dollars for a slip account which is like this like you know dedicated a line between your computer and there is um now there's i think they've prices on down to about forty dollars a month so i still need to do some more looking either all just kind of you know uh here 
+00:03:36	00:03:37	1	mhm 
+00:03:37	00:03:40	2	mhm 
+00:03:40	00:03:48	1	mm mm and where are you telling me once that you had a electronic news service through your computer 
+00:03:48	00:04:21	2	yeah i used to have um scenic which is um santa cruz operations version of unix installed on my sweetie sick and um it has you know i've been reading and figured it back to adopt machine we use it or um you know burning he from you know doing kind of low level ah development kinds of things on it 
+00:04:21	00:04:23	1	what was the other thing you said 
+00:04:23	00:04:28	2	he probably programming eat them yeah 
+00:04:28	00:04:30	1	but is that 
+00:04:30	00:04:43	2	civil program of over eat only memory does not modify viable unless you use a higher voltage hence the term to burn a chip you you have the 
+00:04:45	00:04:51	2	as a special socket you drop the chip in too and you then 
+00:04:51	00:04:52	1	mhm 
+00:04:52	00:04:58	2	it then raises the voltage out to about well depending on the chip in anywhere from twelve to twenty five <unk> 
+00:04:58	00:04:59	1	mhm 
+00:04:59	00:05:06	2	normal operating voltage is it five old though at the higher voltage it uh 
+00:05:06	00:05:09	1	mhm 
+00:05:09	00:05:38	2	i forget the exact physics of it but you end up um kind of like in that just got you know you you put them even if you burn zeros and do it it starts out being all one and then you for instance zero and then you <unk> you use ultra violet light too um just lodge electrons and then you know you raised as it back to one 
+00:05:38	00:05:40	1	oh and then there's also 
+00:05:49	00:05:50	1	mhm 
+00:05:50	00:06:12	2	so it's kind of uh you know it takes about depending on the chip you know and the strength of the eraser anywhere from five to twenty minutes to erase it you know and then you've got to download the program to the programmer and then it burns it in so you know the whole thing and take you know a bit of time 
+00:06:12	00:06:14	1	mhm but it's uh 
+00:06:14	00:06:20	2	you know it's a good way to you know make changes the system is messed coughing on that show 
+00:06:20	00:06:22	1	mhm 
+00:06:22	00:06:23	2	mhm 
+00:06:23	00:06:24	1	mhm 
+00:06:24	00:06:37	2	and um you know so we've got any problem programmer we've got a programmer for you know micro controllers which also has <unk> in um 
+00:06:37	00:06:38	1	mhm um 
+00:06:38	00:06:43	2	that kinda thing 
+00:06:43	00:06:44	1	mhm 
+00:06:44	00:06:54	2	oh another thing we use it for is uh like a bloody and downloading programs from the h. p. for t. h. e. graphic calculator 
+00:06:54	00:06:57	1	mhm 
+00:06:57	00:07:16	2	it's good we uh you know it's it's cheaper to buy a an h. p. and to program it than it is to buy uh l._c._d. screen and and then uh assemble all over thirty three are required to drive uh 
+00:07:16	00:07:17	1	mhm 
+00:07:17	00:07:28	2	so for any kind of a system where you need a just like a little user interface you know like if he's had an uh screen with a few lines of taxes on it uh it's just more you know it's 
+00:07:28	00:07:30	1	mhm 
+00:07:30	00:07:38	2	and uh so that's another thing we use it for us you know like a floating 
+00:07:38	00:07:40	1	programs from from the calculator 
+00:07:40	00:07:42	2	mhm 
+00:07:42	00:07:43	1	mhm 
+00:07:43	00:08:04	2	that reminds me one thing that i'm looking for now is um some kind of a typewriter that's maybe real light and portable where i could type a document and then um uh apply it to a computer or or even just save it to a desk if i don't know if there's typewriters that do that 
+00:08:04	00:08:07	1	um yeah 
+00:08:13	00:08:15	1	mm um 
+00:08:15	00:08:26	2	you may be better off finding a cheap laptop you know i use my or find to use two eighty six or used three eighty six laptop 
+00:08:26	00:08:33	1	<unk> again yeah how much those go funny you know uh 
+00:08:40	00:08:42	1	mhm 
+00:08:42	00:08:46	2	and and some of these uh affordable typewriters are going to cost as much 
+00:08:46	00:08:48	1	mhm 
+00:08:48	00:08:50	2	and then not be standard 
+00:08:50	00:09:00	1	right mhm yeah i was hoping i could get something for two hundred that sounds like they might not be anything 
+00:09:00	00:09:30	2	[noise] there are things and you just you really have to like keep your eye open like maybe go and buy a copy of computer shop or you know and then it's like you're gonna spend all day like you know saturday morning you buy computer shopper and then you spend the rest of the day flipping through you know you know it's like an inch and a half sick you know it's this oversized this this gargantuan you know saying just full of nothing but as you know and they they still use equipment they've got the fairly comprehensive set of indexes now 
+00:09:30	00:09:32	1	mhm 
+00:09:32	00:09:47	2	easy to track down like it'll give you a list of all the use hardware vendors and then you just kind of look at each one of them and you know have a pet a paper ready so you can take notes and you probably wanna little you know had posted seeking tear often make little book smart 
+00:09:47	00:09:48	1	mhm 
+00:09:48	00:09:58	2	mm no then you've got to go on call 'em all so i mean you're going to take a while you really want you know you're you're going to spend any time you don't spend that money 
+00:09:58	00:09:59	1	mhm 
+00:09:59	00:10:02	2	but you know it is possible to find good deals 
+00:10:02	00:10:05	1	mhm 
+00:10:05	00:10:11	2	another choices like um <unk> for sale 
+00:10:11	00:10:11	1	mhm 
+00:10:11	00:10:14	2	on the using that 
+00:10:14	00:10:17	1	mhm 
+00:10:17	00:10:33	2	using that news but you know that's another option and then of course every so often you know someone wants to unload a computer through the sunday uh i mean um this girl i was seeing for 
+00:10:33	00:10:40	1	mostly carmen ended up buying a a mac perform uh for like five hundred and fifty bucks 
+00:10:55	00:10:59	1	software you know all you know and and back so 
+00:10:59	00:11:01	2	sounds pretty good 
+00:11:01	00:11:02	1	that was a good deal 
+00:11:02	00:11:06	2	yeah for five fifty 
+00:11:14	00:11:16	2	yeah he was 
+00:11:31	00:11:35	1	yeah they <unk> they usually have some good bargains 
+00:11:35	00:11:40	2	yeah i should probably just go to that and eventually it'll probably be a laptop and turned on 
+00:11:40	00:11:42	1	mhm 
+00:11:42	00:11:46	2	[noise] actually i think there were some laptops out uh 
+00:11:46	00:11:51	1	uh one of your friends you know knock himself off and you know get all this stuff 
+00:11:51	00:11:57	2	[laughter] oh no [laughter] 
+00:11:57	00:12:01	1	oh yeah now that the the suitable period for giving his past now i'm allowed to 
+00:12:01	00:12:09	2	mm yeah yeah yeah well 
+00:12:09	00:12:29	1	mm <unk> gus gus is putting out a web page for his company w. s. t. and he's you know he he it's very um he's very <unk> like all about it i'm i'm not sure if he expects to really get any business doing it or not but it's you know you know there's like pictures of everyone 
+00:12:29	00:12:38	2	there's a picture of me and i've got this you know expression on my like my clients and you know my eyes open really wide and 
+00:12:38	00:12:40	1	[laughter] 
+00:12:40	00:13:00	2	take care of another guy was you know like face almost up into the camera and hung out and you know different people in different poses and got it got like took his picture into the into uh the like the video pain um application 
+00:13:00	00:13:02	1	mhm 
+00:13:02	00:13:25	2	yeah to him to his head and then underneath each one is like you know it's like <unk> you know and it doesn't you know mood swings <unk> shoot fire davey think walks do all in black attends rockies games join yamaguchi high i._q. on missions 
+00:13:25	00:13:38	1	and then he's got this little drawing of a bunch of die in a shape of uh you know it looks like a pile of something and it says rob mcallen underneath and says i tend to stay on 
+00:13:59	00:14:03	1	uh-huh it's a good name 
+00:14:03	00:14:11	2	and so you know he's basically a contractor and everyone who works with him as a contractor 
+00:14:11	00:14:13	1	right 
+00:14:13	00:14:14	2	mhm 
+00:14:14	00:14:17	1	huh wow interesting 
+00:14:17	00:14:17	2	mhm 
+00:14:17	00:14:21	1	so are you are making ends meet 
+00:14:21	00:14:25	2	well um yeah i'm kind of hanging in there 
+00:14:31	00:14:39	2	making me wonder how i'm going to uh pull the money together 
+00:14:39	00:14:40	1	pay rent and that kind of thing 
+00:14:40	00:14:41	2	huh 
+00:14:41	00:14:43	1	pay rent and and that 
+00:14:57	00:14:59	2	um 
+00:14:59	00:15:03	1	mhm 
+00:15:03	00:15:16	2	um yeah we'll see i mean it's one of the parts that got sent to me doesn't do what the they said it would you know so i have to they're saying i have to weigh too 
+00:15:16	00:15:19	1	to get a you know a different part that will 
+00:15:19	00:15:22	2	work mhm 
+00:15:22	00:15:25	1	point i'm inclined to start looking around for another <unk> 
+00:15:25	00:15:26	2	flyer mhm 
+00:15:26	00:15:28	1	and um 
+00:15:28	00:15:29	2	mhm 
+00:15:29	00:15:33	1	you know it it it's gonna be kind of a close call because 
+00:15:33	00:15:47	2	living expenses don't stop and so the project gets delayed you know i have to start you know spending some of the money you just you know keeping alive and uh 
+00:15:47	00:15:49	1	so it's gonna be uh 
+00:15:49	00:15:59	2	shave but i think i'll be able to get through they virtue of i've got one robs clients is now uh i go on to me for business 
+00:15:59	00:15:59	1	mhm 
+00:15:59	00:16:02	2	[noise] um 
+00:16:02	00:16:07	1	so you're doing consulting on your own and discuss 
+00:16:07	00:16:14	2	yeah right now guess doesn't have any projects he's trying to put together a product that basically uh 
+00:16:14	00:16:15	1	multiple 
+00:16:15	00:16:27	2	uh addresses on a single ours to thirty two line which uh you know if you're familiar with the <unk> part of an i._b._m. 
+00:16:27	00:16:28	1	um 
+00:16:28	00:16:41	2	ordinarily you can plug one thing into a calm port and using this device that were coming up with it'll be possible to have multiple devices on a single come for it 
+00:16:41	00:16:42	1	mhm 
+00:16:42	00:16:48	2	and uh [noise] so you know we're in the past 
+00:16:48	00:16:52	1	of verifying with him attic and producing these boards and then 
+00:17:03	00:17:05	1	and uh 
+00:17:05	00:17:13	2	you know it should come in it's it's kind of like you know on the the apple macintosh the desktop uh has uh 
+00:17:13	00:17:18	1	the desktop what by bus oh huh 
+00:17:18	00:17:20	2	you have uh things like 
+00:17:20	00:17:21	1	you know the mouse 
+00:17:21	00:17:37	2	attract ball a keyboard extra keep had you know you can plug all kinds of little things into the into the you know they have this special plug shaped worked with the maxine another keyboards plug in 
+00:17:37	00:17:39	1	okay 
+00:17:39	00:17:55	2	you can have up to sixteen devices running on the apple desktop buff and so you know we were just looking to produce a similar kind of a situation using uh you know they are two thirty to calm port uh i._b._m. 
+00:17:55	00:17:58	1	[noise] 
+00:17:58	00:17:59	2	so 
+00:17:59	00:18:03	1	mhm 
+00:18:03	00:18:10	2	but that one's not you know that's kinda like you know we have to start marketing it and we won't 
+00:18:10	00:18:11	1	mhm 
+00:18:11	00:18:18	2	you know we'll probably be a little while before we actually start realizing any kind of uh 
+00:18:18	00:18:20	1	no income yeah yeah 
+00:18:20	00:18:22	2	from that sort so 
+00:18:22	00:18:25	1	yeah 
+00:18:25	00:18:29	2	so it's it's um it'll be a little bit of work 
+00:18:29	00:18:32	1	mhm mhm 
+00:18:32	00:18:33	2	mhm 
+00:18:33	00:18:40	1	meanwhile it's not stopping me i i've got together with a few people and uh so that you know i was interested in 
+00:18:40	00:18:45	2	living in in uh intentional community and so we're actually looking at 
+00:18:45	00:18:48	1	um 
+00:18:48	00:18:49	2	buying some place 
+00:18:49	00:18:50	1	mhm 
+00:18:50	00:18:52	2	and uh 
+00:18:52	00:18:54	1	mhm 
+00:18:54	00:18:59	2	you know having enough room for people plus a little extra room and uh 
+00:18:59	00:19:00	1	mhm 
+00:19:15	00:19:17	1	um 
+00:19:17	00:19:22	2	yoga contracts or mhm so 
+00:19:22	00:19:24	1	did i mentioned this before 
+00:19:37	00:19:39	1	um talks a little bit about 
+00:19:39	00:19:57	2	[noise] something like that um with some of her friends um not <unk> maybe not with such emphasis on uh um you know exploring uh mental state and that kind of thing 
+00:19:57	00:20:15	1	um although that you know would probably be um part of the spiritual life of the community and uh yeah i was wondering um where uh would you where are you planning on doing this and 
+00:20:15	00:20:15	2	mhm 
+00:20:15	00:20:18	1	are there are quite a few or five or 
+00:20:18	00:20:22	2	we got we got for people who are 
+00:20:22	00:20:23	1	uh-huh 
+00:20:23	00:20:41	2	committed to it and and there was another person who uh you know express some interest initially and then kind of backed off and she's decided that she's kind of attached to her apartment and 
+00:20:41	00:20:42	1	you know 
+00:20:42	00:20:43	2	yeah 
+00:20:43	00:20:53	1	having your own space and and she's got she teaches voice lessons and so she's afraid that she'd lose some clientele she moved 
+00:20:53	00:21:00	2	mhm and uh two which i responded well of course there aren't any students anywhere else in the world 
+00:21:00	00:21:01	1	mhm 
+00:21:05	00:21:08	1	that you know she she's 
+00:21:17	00:21:18	1	mhm 
+00:21:18	00:21:47	2	you know and she she could choose to you know eliminate those but you know people who are more invested in uh let's see how do i want to put the most people get wrapped up in their emotions about things and that generally keeps them like stock or they are 
+00:21:47	00:21:48	1	mhm 
+00:21:48	00:21:51	2	yeah it it seems to be 
+00:21:51	00:21:52	1	mhm 
+00:21:52	00:22:05	2	the emotions behind something and just just my own take on it you know i mean i know that like in their linguistic programming there was a focus on the beliefs but i think that um 
+00:22:05	00:22:06	1	[noise] 
+00:22:06	00:22:08	2	um 
+00:22:08	00:22:08	1	yeah 
+00:22:08	00:22:27	2	leaves you know beliefs are just thought that is the fact that you i guess have some emotional company man that i think that's generally what keeps keeps things in place 
+00:22:27	00:22:27	1	mhm 
+00:22:27	00:23:01	2	um which is kind of um you know the root for believe is the same as the root for love and so i think that i think that kind of telling i mean i don't i don't know you know people nowadays probably don't necessarily attached to two words but you can see that you know like they hold some you know they hold some opinion you know as if it were that true 
+00:23:01	00:23:02	1	and uh 
+00:23:02	00:23:25	2	you know and one of the most prevalent ones seems to be like the like the supremacy of emotion like whatever i'm feeling must be the way things really are you know kind of like uh trust your got kind of 
+00:23:25	00:23:27	1	mhm 
+00:23:27	00:23:33	2	and that um you know like whatever emotions or feelings they have about something 
+00:23:41	00:23:47	2	mhm mhm 
+00:24:02	00:24:07	2	i guess i have a belief myself which is that 
+00:24:07	00:24:13	1	um you know it's 
+00:24:13	00:24:19	2	i think that most people kind of get the cart before the horse you know they decided to go for these 
+00:24:19	00:24:20	1	mhm 
+00:24:20	00:24:29	2	you know mystical approaches to life or whatever and they or their needs philosophy you know something like greater than um and 
+00:24:29	00:24:30	1	mhm 
+00:24:30	00:24:39	2	i know that the tools that people think that that uh you know like part of the steps on the road to recovery 
+00:24:39	00:24:43	1	say that last thing against something like <unk> 
+00:24:43	00:24:44	2	i'm sorry 
+00:24:44	00:24:49	1	i didn't catch that you said something about it's something like dragging this um 
+00:24:49	00:24:50	2	mhm 
+00:24:50	00:24:50	1	mhm 
+00:24:50	00:24:58	2	oh i wasn't sure what you said and it was before you were talking about the <unk> 
+00:24:58	00:24:59	1	um 
+00:24:59	00:25:03	2	district definitely uh 
+00:25:03	00:25:05	1	mhm 
+00:25:05	00:25:08	2	what did i say my poor short term memory 
+00:25:08	00:25:10	1	something like something is um 
+00:25:10	00:25:13	2	oh it's just you know the 
+00:25:13	00:25:15	1	mhm 
+00:25:15	00:25:17	2	i don't know just you know like a bully 
+00:25:17	00:25:18	1	in something 
+00:25:18	00:25:20	2	mhm 
+00:25:20	00:25:23	1	you know hire outside of one so 
+00:25:23	00:25:27	2	uh-huh mysticism mhm 
+00:25:27	00:25:30	1	yeah maybe i know i said that earlier 
+00:25:30	00:25:37	2	yeah um 
+00:25:37	00:25:42	1	yeah so anyway twelve step people 
+00:25:42	00:25:49	2	well for them it seems like it's useful to have some kind of a structure because they don't seem to be able to hold anything in place for themselves 
+00:25:49	00:25:51	1	uh-huh it seems 
+00:25:51	00:25:53	1	uh 
+00:25:53	00:25:55	2	you know so they moved from 
+00:25:55	00:25:56	1	position of 
+00:25:56	00:26:01	2	you know disarray and to some order but you can get just as 
+00:26:05	00:26:10	2	as you can on your whim 
+00:26:10	00:26:12	1	yeah 
+00:26:21	00:26:34	2	well about reality ultimately like what you should do you know people get all i'm just thinking of like a friend of mine michael and and he he 
+00:26:34	00:26:36	1	well seeing this girl that they were 
+00:26:38	00:26:40	1	quite a while i think back in high school 
+00:26:40	00:26:43	2	and then they kind of like sort of 
+00:26:43	00:26:48	1	i had a reunion uh you know they kind of ran into each other 
+00:26:48	00:26:52	2	and this is michael <unk> yeah uh-huh 
+00:26:52	00:26:57	1	and they were going out and seeing each other for a while but she's kind of got this thing about 
+00:26:57	00:26:58	2	mhm 
+00:26:58	00:27:00	1	you know this 
+00:27:00	00:27:00	2	yeah 
+00:27:00	00:27:05	1	she's got the sensitivity thing it's hard to i don't know if there's like us 
+00:27:05	00:27:13	2	specific name for it but it's kinda like you know it's kind of like she's got you know like these sensitive emotions you know and 
+00:27:13	00:27:14	1	mhm 
+00:27:14	00:27:15	2	um you know she can't bear to 
+00:27:15	00:27:19	1	have um um 
+00:27:19	00:27:21	2	infringed upon 
+00:27:21	00:27:22	1	mhm 
+00:27:22	00:27:26	2	and so it's like whatever 
+00:27:26	00:27:27	1	[noise] 
+00:27:27	00:27:28	2	um 
+00:27:28	00:27:32	1	mhm 
+00:27:32	00:27:45	2	but you know it's like so whatever you know gives her a bad feelings you know she like students' clear instead of you know <unk> organizing herself to be powerful in a situation 
+00:27:45	00:27:46	1	mhm 
+00:27:46	00:27:50	2	um she lets her 
+00:27:50	00:27:56	1	you know she's just let these emotions kind of like be the ultimate test of reality 
+00:27:56	00:27:57	2	mhm 
+00:27:57	00:28:01	1	and since they're bad bad feelings then you know 
+00:28:01	00:28:02	2	mhm 
+00:28:02	00:28:06	1	her her reaction is to sort of withdraw from the situation 
+00:28:06	00:28:09	2	yeah 
+00:28:09	00:28:14	1	no you know it's just it's just the same kind of thing it's like people get invested in 
+00:28:14	00:28:22	2	you know comfort 
+00:28:22	00:28:23	1	and uh 
+00:28:23	00:28:29	2	you know keeps them 
+00:28:35	00:28:36	2	mhm 
+00:28:36	00:28:39	1	it'd be no more development because they're more interested in their comforts 
+00:28:39	00:28:46	2	mhm so it just kinda for some reason irritates me 
+00:28:46	00:28:47	1	mhm 
+00:28:47	00:28:49	2	yeah well you 
+00:28:49	00:28:50	1	[noise] 
+00:28:50	00:28:57	2	do you uh you know i've [noise] seems like you place a pretty high value on flexibility and um 
+00:28:57	00:28:58	1	[noise] 
+00:28:58	00:29:03	2	development continuing to develop and the thing that's something i value 
+00:29:03	00:29:04	1	i guess it's 
+00:29:04	00:29:06	2	kind of like disappointment because it's like 
+00:29:06	00:29:08	1	you know you're going along and 
+00:29:08	00:29:10	2	just like drop out like 
+00:29:10	00:29:11	1	want to play anymore 
+00:29:11	00:29:23	2	yeah well it's kind of like a disappointment like they'd rather have their emotions you know then you know some kind of related nuts 
+00:29:23	00:29:25	1	mhm 
+00:29:25	00:29:30	2	so i find that disappointing 
+00:29:30	00:29:32	1	yeah 
+00:29:32	00:29:36	2	mhm 
+00:29:36	00:29:37	1	mhm 
+00:29:37	00:29:39	2	anyway 
+00:29:39	00:29:44	1	mm well so you were saying that there's five of you all together then 
+00:29:44	00:29:52	2	well one of the five is this girl who is uh i guess pretty much decided to stay in her own apartment 
+00:29:52	00:29:53	1	mhm 
+00:29:53	00:29:54	2	no there's four of us 
