@@ -24,6 +24,20 @@ echo "Text has been transcribed"
 
 # push results to results folder
 # combine and format the results
+if [ $stage -le '2' ]; then
+	cp asr/data/inputs/rttm results/raw/rttm
+	
+	# copy decoded files - assuming 8 jobs and 8 outputs
+	for i in {1..8}
+	do
+		cp asr/data/nnet/aspire_asr/chain/exp/tdnn_7b/decode/log/decode.{i}.log results/raw/decode.{i}.log
+	done
+
+	# combine results 
+	python formatTranscriptions
+fi
+echo "Formatted Transcriptions"
+echo "Sending Results back to User"
 
 
 # return the results to user 
