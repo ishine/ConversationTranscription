@@ -4,6 +4,9 @@
 # downloaded from Kaldi: https://kaldi-asr.org/models/1/0001_aspire_chain_model.tar.gz
 # leverages results from diarization and transcribes speech 
 
+# set to source directory
+cd "$(dirname "$0")"
+
 . ./cmd.sh
 . ./path.sh
 

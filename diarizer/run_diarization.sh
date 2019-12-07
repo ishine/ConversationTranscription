@@ -5,6 +5,8 @@
 
 # leverages callhome Xvector model: https://kaldi-asr.org/models/6/0006_callhome_diarization_v2_1a.tar.gz
 
+# set to source directory
+cd "$(dirname "$0")"
 
 data_dir=`pwd`/data # add data directory 
 inter_dir=`pwd`/data/inter
