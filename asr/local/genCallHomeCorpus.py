@@ -16,6 +16,7 @@ For example, if transcribing biomedical conversations then I would need to gener
 import os, re, sys
 import string
 
+# function from before I had LDC version of Callhome Transcripts
 def cleanFile(file):
     lines = open(transcription_dir + "/" + file, "r", encoding = "utf-8").readlines()
 
@@ -33,16 +34,28 @@ def cleanFile(file):
 
 if __name__ == "__main__":
     
-    transcription_dir = sys.argv[1]
+    transcript_dir = sys.argv[1]
     print(sys.argv)
     output_dir = sys.argv[2]
     
-    files = os.listdir(transcription_dir)
-    files = [file for file in files if re.search("cha", file)]
+    dirs = ["train", "devtest", "evaltest"]
+    #transcript_dir = "./rawData/CallHome/callhome_english_trans_970711/transcrpt"
     
-    corpus = [cleanFile(file) for file in files]
-    corpus = '\n'.join([text for text in corpus])
+    corpus = []
+    for directory in dirs:
+        files = os.listdir(transcript_dir + "/" + directory)
+        for filename in files: 
     
+            lines = open(transcript_dir + "/" + directory + "/" + filename, "r").readlines()
+            
+            # only keep lines that start with a number and strip lines
+            lines = [line.strip().split(": ") for line in lines if re.search("^\d", line)]
+            
+            
+            for line in lines:
+                corpus.append(line[1])
+
+
     open(output_dir + "/corpus.txt", "w").writelines(corpus)
     
     

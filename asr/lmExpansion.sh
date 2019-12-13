@@ -6,7 +6,7 @@
 
 datadir=`pwd`/data
 lmdatadir=$datadir/lmdata
-transcriptiondir=../rawData/CallHome/eng/transcriptions
+transcriptiondir=../rawData/CallHome/callhome_english_trans_970711/transcrpt
 G2Pdir=$datadir/nnet/sequiturG2P
 nnetdir=$datadir/nnet/aspire_ASR
 newlmdir=$nnetdir/data/local/new_lang

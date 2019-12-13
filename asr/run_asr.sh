@@ -22,29 +22,36 @@ graphdir=$nnetdir/exp/chain/tdnn_7b/graph_pp
 
 
 stage=0
-expandLM=false
+expandLM=true
+evaluate=true
 
 if [ $stage -le '0' ]; then
 	# move our relevant data 
 	mkdir -p $inputdir
-	#cp -a ../diarizer/data/cmn/. $inputdir/ # moves segments utt2speak and such
-	#utils/copy_data_dir.sh ../diarizer/data/cmn $inputdir 
-	cp ../diarizer/data/nnet/0006_callhome_diarization_v2_1a/exp/xvector_nnet_1a/exp/xvectors/plda_scores_speakers/rttm $inputdir/rttm # moves diarization results
+
 	cp ../diarizer/data/cmn/wav.scp $inputdir/wav.scp
+	
+	# if evaluate is false then we copy over our diarization results otherwise we generate ground truth files 
+	if [ "$evaluate" = false ]; then
+		#cp -a ../diarizer/data/cmn/. $inputdir/ # moves segments utt2speak and such
+		#utils/copy_data_dir.sh ../diarizer/data/cmn $inputdir 
+		cp ../diarizer/data/nnet/0006_callhome_diarization_v2_1a/exp/xvector_nnet_1a/exp/xvectors/plda_scores_speakers/rttm $inputdir/rttm # moves diarization results
+	
+		# convert rttm file to segments file
+		python local/RTTM2Files.py $inputdir
+	 
+	else
+		python local/ChWordsSegments.py ../rawData/CallHome/callhome_english_trans_970711/transcrpt $inputdir
+		
+		# generate matching utt2spk
+		cat $inputdir/segments | awk '{print $1, $1}' > $inputdir/utt2spk
+	fi
 
-	# convert rttm file to segments file
-	python local/RTTM2Files.py $inputdir
 	utils/fix_data_dir.sh $inputdir
-
 
 	# downsample wav files to 8khz
         sed 's/16000/8000/g' $inputdir/wav.scp > $inputdir/wav.tmp
 	mv $inputdir/wav.tmp $inputdir/wav.scp
-
-	#steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --cmd "$train_cmd" --nj 8 \
-	#               --cmd "$train_cmd" --write-utt2num-frames true \
-	#                $inputdir exp/make_mfcc $mfccdir
-	#utils/fix_data_dir.sh $inputdir
 fi
 
 if [ "$expandLM" = true ] && [ $stage -le '1' ]; then
@@ -91,11 +98,12 @@ if [ $stage -le '1' ]; then
 	steps/compute_cmvn_stats.sh $inputdir
 	utils/fix_data_dir.sh $inputdir
 
-	# prepare features for x-vector training
+	# prepare features for i-vector training
 	local/prepare_feats.sh  --cmd "$train_cmd" --nj 8 \
 	                $input_dir data/cmn exp/cmn
 	utils/fix_data_dir.sh $input_dir
 fi
+exit 0 
 
 # extract ivectors
 if [ $stage -le '2' ]; then
@@ -111,8 +119,12 @@ if [ $stage -le '3' ]; then
 	steps/nnet3/decode.sh --nj 8 --cmd "$train_cmd" --config conf/decode.config \
 		--acwt 1.0 --post-decode-acwt 10.0 --online-ivector-dir $datadir/ivectors \
 		$graphdir $inputdir $nnetdir/exp/chain/tdnn_7b/decode
-
+fi
 	
-
-fi	
+if [ $stage -le '4' ] && [ "$evaluate" = true ]; then
+	echo "Scoring Decoded Results"
+	local/score.sh --cmd "$train_cmd" \
+		$inputdir $graphdir $nnetdir/exp/chain/tdnn_7b/decode
+fi
+	
 
