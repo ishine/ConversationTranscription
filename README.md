@@ -11,8 +11,8 @@ For each file, a conversation transcript is exported.  A sample of the export is
 
 ## Results
 Some varying results from the models utilized in this tool 
- * Diarization Error Rate %: 21.42<sup>1<\sup>
- * Original ASR Model WER %: 27.7<sup>2<\sup>
+ * Diarization Error Rate %: 21.42<sup>1</sup>
+ * Original ASR Model WER %: 27.7<sup>2</sup>
  * ASR WER % on CallHome data: 33.23
 
 ## Tool Structure and Script Details 
