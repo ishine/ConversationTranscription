@@ -10,6 +10,11 @@ Tool takes conversational speech files of varying file types as input.  For the 
 For each file, a conversation transcript is exported.  A sample of the export is pictured below:
 ![alt text](img/sample_output_file.JPG)
 
+## Data
+For testing and development purposes, I leveraged the CallHome English dataset.  Information can be found at this link. The dataset is a phone call between two native english speakers.  It consists of 120 calls and each call can last up to 30 minutes. Calls can be between male or females from varying ages. 
+
+Data sourced from Language Data Consortium
+
 ## Results
 Some varying results from the models utilized in this tool 
  * Diarization Error Rate %: 21.42%<sup>1</sup>
