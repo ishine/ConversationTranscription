@@ -6,6 +6,15 @@ Scripts and directory related to tool that transcribes conversational speech.  T
 Tool takes conversational speech files of varying file types as input.  For the purpose of development, I utilized the CallHome English Corpus. Sample of input directory pictured below:
 
 
+## Outputs
+For each file, a conversation transcript is exported.  A sample of the export is pictured below:
+
+## Results
+Some varying results from the models utilized in this tool 
+ * Diarization Error Rate %: 21.42<sup>1<\sup>
+ * Original ASR Model WER %: 27.7<sup>2<\sup>
+ * ASR WER % on CallHome data: 33.23
+
 ## Tool Structure and Script Details 
 
 All listed files generated from scratch by me.  Partially touched files are commented with my UNI in the code base
@@ -38,7 +47,7 @@ diarizer/ : folder containing all scripts and tools related to speaker diarizati
      * Cluster PLDA scores to complete diarization (able to select number of speakers or select an unknown number of speakers)
      * export diarization results for use in ASR system
      
- *  local/initData.py: initialize data inputs for use in diarization
+ * local/initData.py: initialize data inputs for use in diarization
    * Mandatory Inputs: input directory; output directory
    * Process: 
      * Create file list of speech files from input directory
@@ -100,3 +109,11 @@ asr/ : folder containing all scripts and tools related to automatic speech recog
        * parse and clean lines
        * formats for inclusion in ground truth segments and text files 
      * exports ground truth files 
+
+
+
+
+## References
+1. G. Sell, D. Snyder, A. McCree, D. Garcia-Romero, J. Villalba, M. Maciejewski, V. Manohar, N. Dehak, D. Povey, S. Watanabe, et al., Diarization is hard: Some experiences and lessons learned for the JHU team in the inaugural DIHARD challenge, in Proc. Interspeech, pp. 2808–2812, 2018.
+2. V. Peddinti, G. Chen, D. Povey, S. Khudanpur, Reverberation robust acoustic modeling using i-vectors with time delay neural
+networks, in Proc. Interspeech, 2015
