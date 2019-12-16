@@ -4,16 +4,17 @@ Scripts and directory related to tool that transcribes conversational speech.  T
 
 ## Inputs
 Tool takes conversational speech files of varying file types as input.  For the purpose of development, I utilized the CallHome English Corpus. Sample of input directory pictured below:
-
+![alt text](img/sample_input_dir.JPG)
 
 ## Outputs
 For each file, a conversation transcript is exported.  A sample of the export is pictured below:
+![alt text](img/sample_output_file.JPG)
 
 ## Results
 Some varying results from the models utilized in this tool 
- * Diarization Error Rate %: 21.42<sup>1</sup>
- * Original ASR Model WER %: 27.7<sup>2</sup>
- * ASR WER % on CallHome data: 33.23
+ * Diarization Error Rate %: 21.42%<sup>1</sup>
+ * Original ASR Model WER %: 27.7%<sup>2</sup>
+ * ASR WER % on CallHome data: 33.2%
 
 ## Tool Structure and Script Details 
 
