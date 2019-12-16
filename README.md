@@ -115,6 +115,16 @@ asr/ : folder containing all scripts and tools related to automatic speech recog
        * parse and clean lines
        * formats for inclusion in ground truth segments and text files 
      * exports ground truth files 
+     
+ * local/rmNonWords.py: remove non-verbal speech and punctuation prior to scoring WER. Necessary since non-verbal speech are treated differently between dataset used for training and CallHome
+   * Mandatory Inputs: ground truth text file and best predicted lattice path
+   * Process:
+     * for the ground truth file
+       * removes all nonverbal speech
+       * remove punctuation
+     * for each best lattice path file
+       * removes all nonverbal speech
+     * exports
 
 
 
