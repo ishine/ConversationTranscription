@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# alb2307 - all code created by me
 # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 15 18:39:15 2019
@@ -53,7 +54,7 @@ def GenWavFile(file_names, file_list):
                 # if wav then just have file name
                 if ext.lower() == ".wav":
                     # above link identifies how to downsample or convert to mono channel if needed
-                    f.write(name + " sox " + path + " -r 16000 -c 1 -b 16 -t wav - |\n")
+                    f.write(name + " sox /home/alb2307/speech/project/ConversationTranscription/" + path + " -r 16000 -c 1 -b 16 -t wav - |\n")
             print("Created " + str(i) + " wav files")
 
 def GenUtt2Spk(file_names, train_dir):

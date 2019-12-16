@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# alb2307 - all code created by me
 """
 Created on Sat Nov 30 12:17:01 2019
 
@@ -53,10 +54,9 @@ def extractTranscriptions(raw, decoded_files):
 
 if __name__ == "__main__":
     raw = "./results/raw"
-    final = "./results/final" # this will be what is returned in the end
+    #final = "./results/final" # this will be what is returned in the end
     
-    #raw = sys.argv[1]
-    #final = sys.argv[2]
+    final = sys.argv[1]
 
     # gen file list 
     files = os.listdir(raw)

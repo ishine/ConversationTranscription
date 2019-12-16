@@ -54,6 +54,10 @@ $cmd LMWT=$min_lmwt:$max_lmwt $dir/scoring/log/best_path.LMWT.log \
   lattice-best-path --lm-scale=LMWT --word-symbol-table=$lang/words.txt \
     "ark:gunzip -c $dir/lat.*.gz|" ark,t:$dir/scoring/LMWT.tra || exit 1;
 
+# alb2306 - remove non words from best path and ground truth text prior to scoring
+python local/rmNonWords.py $dir/scoring/log $data
+
+
 for lmwt in `seq $min_lmwt $max_lmwt`; do
   utils/int2sym.pl -f 2- $lang/words.txt <$dir/scoring/$lmwt.tra | \
    filter_text > $dir/scoring/$lmwt.txt || exit 1;

@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:/home/alb2307/speech/project/ConversationTranscription/asr/data/nnet/aspire_ASR/exp/chain/tdnn_7b/decode/scoring/text.filt ark:/home/alb2307/speech/project/ConversationTranscription/asr/data/nnet/aspire_ASR/exp/chain/tdnn_7b/decode/scoring/8.txt 
+%WER 33.23 [ 76478 / 230114, 9326 ins, 34957 del, 32195 sub ]
+%SER 77.76 [ 23715 / 30499 ]
+Scored 30499 sentences, 0 not present in hyp.

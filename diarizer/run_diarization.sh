@@ -1,4 +1,5 @@
 #!/bin/bash
+# alb2307 - all code created by me
 
 # bash file for running the diarization process for a given dataset
 # exports a text file of diarization results to be leverage in speech recognition
@@ -15,23 +16,37 @@ inter_dir=`pwd`/data/inter
 . ./path.sh
 set -e
 
+
+threshold=.5
 rawdata=../rawData
 mfccdir=$data_dir/mfcc
 vaddir=$data_dir/mfcc
 stage=0
 nnet_dir=$data_dir/nnet/0006_callhome_diarization_v2_1a/exp/xvector_nnet_1a
-num_components=1024 # the number of UBM components (used for VB resegmentation)
-ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
+
+#num_components=1024 # the number of UBM components (used for VB resegmentation)
+#ivector_dim=400 # the dimension of i-vector (used for VB resegmentation)
+
+[ -f ./path.sh ] && . ./path.sh
+. utils/parse_options.sh || exit 1;
+
+
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 [--cmd (run.pl|queue.pl...)] <data-dir> <lang-dir|graph-dir> <decode-dir>"
+  echo " Options:"
+  echo "    --stage (0|1|2)                 # start scoring script from part-way through."
+  echo "    --threshold <int> 		    # threshold for PLDA speaker clustering."
+  exit 1;
+fi
+
+num_speakers=$1
 
 
 if [ $stage -le 0 ]; then
-# before starting remove already created files
-	[ -e data/cmn ] && rm -r data/cmn
-	[ -e $inter_dir ] && rm -r $inter_dir
-# Generate Segments file 
+	# Generate Segments file 
 
 	# generate wav files and prep base datasets 
-	local/initData.py $rawdata/CallHome $inter_dir
+	#local/initData.py $rawdata/CallHome $inter_dir
 	utils/fix_data_dir.sh $inter_dir
 
 	# generate MFCC features so that we can create the segments file 
@@ -106,17 +121,32 @@ fi
 
 # tune PLDA clustering and export diarization
 if [ $stage -le 3 ]; then
-       diarization/nnet3/xvector/score_plda.sh \
+        diarization/nnet3/xvector/score_plda.sh \
 		--cmd "$train_cmd" \
 		--target-energy 0.9 --nj 8 $nnet_dir/xvectors_callhome1 \
 		$nnet_dir/exp/xvectors $nnet_dir/exp/xvectors/plda_scores
 
 
-	# we know number of speakers
-	awk '{print $1, 2}' $inter_dir/segments > $inter_dir/reco2num_spk
+	# if we know the number of speakers
+	if [ "$num_speakers" != "unknown" ]; then
+		awk -v var=$num_speakers '{print $1, var}' $inter_dir/segments > $inter_dir/reco2num_spk
 
-	diarization/cluster.sh --cmd "$train_cmd" --nj 8 \
-		--reco2num-spk $inter_dir/reco2num_spk \
-		$nnet_dir/exp/xvectors/plda_scores \
-		$nnet_dir/exp/xvectors/plda_scores_speakers
+		diarization/cluster.sh --cmd "$train_cmd" --nj 8 \
+			--reco2num-spk $inter_dir/reco2num_spk \
+			$nnet_dir/exp/xvectors/plda_scores \
+			$nnet_dir/exp/xvectors/plda_scores_speakers
+
+	else
+		# otherwise rely on clustering to determine number of speakers
+		diarization/cluster.sh --cmd "$train_cmdG" --nj 8 \
+		       	--threshold $threshold \
+		       	$nnet_dir/exp/xvectors/plda_scores \ 
+			$nnet_dir/xvectors/plda_scores_speakers
+
+
+	fi
+
+
+
 fi
+

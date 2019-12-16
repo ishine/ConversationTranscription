@@ -1,8 +1,15 @@
 #!/bin/bash
+# alb2307 - all code created by me
 
 # Generates a new LM corpus
 # recompiles the language model to include new words
 # recompiles the graph
+
+[ -f ./path.sh ] && . ./path.sh
+. utils/parse_options.sh || exit 1;
+
+
+corpus=$1
 
 datadir=`pwd`/data
 lmdatadir=$datadir/lmdata
@@ -14,14 +21,19 @@ newdictdir=$nnetdir/data/local/new_dict
 
 . ./path.sh
 
+# assume that user has already created a corpus file
 # generate corpus
 mkdir -p $lmdatadir
-local/genCallHomeCorpus.py $transcriptiondir $lmdatadir
+if [ "$corpus" = "none" ]; then
 
+	local/genCallHomeCorpus.py $transcriptiondir $lmdatadir
+	corpus=$lmdatadir/corpus.txt
+	echo "$corpus"
+fi
 
 echo "Get unique words from corpus"
 # get unique words
-grep -oE "[A-Za-z\\-\\']{3,}" $lmdatadir/corpus.txt | tr '[:lower:]' '[:upper:]' | sort | uniq > $lmdatadir/words.txt
+grep -oE "[A-Za-z\\-\\']{3,}" $corpus | tr '[:lower:]' '[:upper:]' | sort | uniq > $lmdatadir/words.txt
 
 echo "Convert graphemes to phonemes"
 # convert graphemes to phonemes

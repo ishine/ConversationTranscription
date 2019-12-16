@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# alb2307 - all code created by me
 # -*- coding: utf-8 -*-
 """
 Created on Wed Dec 11 17:39:26 2019
@@ -22,8 +23,11 @@ def genLines(filename, line):
     filename = re.sub("[\.txt|^en_]", "", filename) 
     
     text = line[1]
-    text = text.translate(None, ".?|,")
-    
+        
+    # callhome text has markers denoting when a word is in another language which we want to remove
+    text = re.sub("<\w{1}", "", text)
+    text = text.translate(None, "<>()%&&/.?|,")
+
     # create segment id 
     start_name = re.sub("\.", "", "{:.2f}".format(float(start))).zfill(7)
     end_name = re.sub("\.", "", "{:.2f}".format(float(end))).zfill(7)

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# alb2307 - all code created by me
 # -*- coding: utf-8 -*-
 """
 Created on Sat Nov 30 12:17:01 2019
@@ -14,12 +15,14 @@ if __name__ == "__main__":
 
     rttm = open(input_dir+ "/rttm").readlines()
 
+    # clean and prep
     rttm = [r.split() for r in rttm]
     rttm_seg = [[r[1], round(float(r[3]),2), round(float(r[4]),2), r[7]] for r in rttm]
 
     new_segments = []
     utt2spk = []
     for seg in rttm_seg:
+        # extract metadata from each line
         filename = seg[0]
         start = seg[1]
         duration = seg[2]

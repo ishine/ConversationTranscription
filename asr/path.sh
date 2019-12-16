@@ -1,3 +1,4 @@
+# alb2307 partial changes
 # changed from ~ to absolute path
 export KALDI_ROOT=/home/alb2307/speech/kaldi-trunk
 export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PWD:$PATH
