@@ -17,7 +17,7 @@ Data sourced from Language Data Consortium
 
 ## Results
 Some varying results from the models utilized in this tool 
- * Diarization Error Rate %: 21.42%<sup>1</sup>
+ * Diarization Error Rate %: 10.4%<sup>1</sup>
  * Original ASR Model WER %: 27.7%<sup>2</sup>
  * ASR WER % on CallHome data: 33.2%
 
@@ -130,6 +130,6 @@ asr/ : folder containing all scripts and tools related to automatic speech recog
 
 
 ## References
-1. G. Sell, D. Snyder, A. McCree, D. Garcia-Romero, J. Villalba, M. Maciejewski, V. Manohar, N. Dehak, D. Povey, S. Watanabe, et al., Diarization is hard: Some experiences and lessons learned for the JHU team in the inaugural DIHARD challenge, in Proc. Interspeech, pp. 2808–2812, 2018.
+1. G. Sell, D. Snyder, A. McCree, D. Garcia-Romero, J. Villalba, M. Maciejewski, V. Manohar, N. Dehak, D. Povey, S. Watanabe, et al., Diarization is hard: Some experiences and lessons learned for the JHU team in the inaugural DIHARD challenge, in Proc. Interspeech, pp. 2808–2812, 2018. Methodology in the previous paper is applied to CallHome Dataset for results
 2. V. Peddinti, G. Chen, D. Povey, S. Khudanpur, Reverberation robust acoustic modeling using i-vectors with time delay neural
 networks, in Proc. Interspeech, 2015
