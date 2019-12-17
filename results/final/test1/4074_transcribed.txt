@@ -1,0 +1,296 @@
+Start Time (Hour:Min:Secs)	End Time (Hour:Min:Secs)	Speaker ID	Transcribed Text
+00:00:00	00:00:03	1	so did you just hear that message 
+00:00:03	00:00:06	2	yes they did but i'm no no no i don't have a british accent 
+00:00:06	00:00:14	1	right i actually have to call someone who has an american accent who is living outside of the united states 
+00:00:14	00:00:22	2	all right good of the things they what they want they want american accent uh for their database 
+00:00:22	00:00:23	1	i also could have uh 
+00:00:23	00:00:29	2	gone if i was a native spanish speaker are native camel speaker or they have this whole 
+00:00:29	00:00:35	1	of languages but both people on the line have to have the same native 
+00:00:35	00:00:41	2	alright unfair so uh yeah it's kind of an odd thing but in any case 
+00:00:41	00:00:42	1	so so 
+00:00:42	00:01:02	2	so so so do you have to say anything in particular or just do the night i just had to get your permission to order and after that uh basically what they want is whatever we happen to be saying so that they can get random bit you know the idea is to get random bits of speech for this and for some reason 
+00:01:02	00:01:03	1	[noise] they want 
+00:01:03	00:01:06	2	some of it uh they asked 
+00:01:06	00:01:08	1	have three different programs 
+00:01:08	00:01:19	2	and uh one of them involved uh you have to call within the united states in one of them you have to call outside the united states and 
+00:01:19	00:01:32	1	well well this this is an extremely good line um because often times you get a satellite line which would be very very uh uh choppy et cetera so i i wonder if they're trying to do speech recognition over over phone lines and that sort of 
+00:01:32	00:01:39	2	that that's part of what they're trying to do is than it is they want to work on speech recognition and uh 
+00:01:39	00:01:40	1	lee um 
+00:01:40	00:01:43	2	also on digitizing speech 
+00:01:54	00:01:56	1	this is just happens to be 
+00:01:56	00:01:58	2	first time that uh 
+00:01:58	00:01:58	1	because 
+00:02:12	00:02:15	2	right right and it didn't work and then 
+00:02:15	00:02:27	1	uh i just happened to still be up at this point and i said well see if i can get through on the eight hundred number now and i did well [noise] so anyway how are you doing these days 
+00:02:27	00:02:43	2	things are going very well i think i had mentioned before that um that uh that uh that there's a company now that i'm working with um ah which is very much just just myself in <unk> um that um <unk> oh okay okay 
+00:02:43	00:02:51	1	well to me that you were leaving the company that you were at and you were entertaining offers and uh well well it seemed to me 
+00:02:51	00:03:02	2	since since i had a clams to to just kind of set up my own company of sorts [noise] so um so things are going extremely well so i had one client who said that he picked me a minimum amount 
+00:03:02	00:03:04	1	he he uh there'll be a minimum uh 
+00:03:04	00:03:14	2	i have about a a day a week for the next two three years which is sufficient to pay all my bills and so i decided that it would make sense to do this and um 
+00:03:33	00:03:35	1	this year oh well that's 
+00:03:35	00:03:40	2	good to be a few months oh yeah i remember you talking a little bit about it at one 
+00:03:56	00:04:00	1	uh <unk> uh i 
+00:04:00	00:04:07	2	the main reason for that is i had not really anticipate it a few expenses that recently came up uh 
+00:04:07	00:04:10	1	related to a couple of burglaries that i had 
+00:04:10	00:04:12	2	oh gosh 
+00:04:12	00:04:17	1	yeah yeah but yeah not a whole lot i can do about that now 
+00:04:17	00:04:18	2	indeed 
+00:04:18	00:04:20	1	do you have to deal with the situation and 
+00:04:20	00:04:22	2	so that's what i'm doing 
+00:04:22	00:04:24	1	but um 
+00:04:26	00:04:47	2	one of the main reasons that i've been such a pathetic er correspond and has been work i've actually been doing a lot of it oh wow i turned in my masters thesis back in may and i'm actually presently working on um several uh articles 
+00:04:47	00:04:49	1	oh okay impressive 
+00:04:49	00:05:01	2	yeah actually it turns out that one thing one little bit in what i was doing uh is going to turn out to be very important in the end and uh 
+00:05:04	00:05:18	2	see the one very annoying thing about all this was my advisors been in france for a year and a half yeah and this made writing my thesis very annoying because there wasn't much discussion yeah yeah um 
+00:05:18	00:05:21	1	[noise] anyway i had been 
+00:05:21	00:05:34	2	kind of telling him that you know from my reading literature i thought that this one little alteration i had made in my model was kind of clever and unique [laughter] and it 
+00:05:34	00:05:35	1	made 
+00:05:36	00:05:37	1	one type 
+00:05:37	00:05:45	2	solution occur which was seen experimentally but none of the other models had uh had 
+00:05:45	00:05:47	1	yeah they basically 
+00:05:58	00:05:59	1	if you look at 
+00:05:59	00:06:07	2	total intensity uh-huh delays or you get a <unk> which is characterize by one frequency 
+00:06:13	00:06:15	1	and <unk> one of those 
+00:06:19	00:06:31	2	happening is that the modes er <unk> out of phase so that they completely mask each other's exactly awesome lesions on these other frequencies and uh 
+00:06:31	00:06:34	2	you can with uh pretty 
+00:06:44	00:06:46	1	you can't find so that it will sustain 
+00:06:46	00:06:48	2	oh okay yeah so 
+00:07:04	00:07:05	1	so um 
+00:07:05	00:07:18	2	i found a simple modification of the original formula which unfortunately makes the solutions horrendously nasty and in most cases ah in soluble 
+00:07:21	00:07:23	2	[laughter] oh 
+00:07:23	00:07:31	1	it actually it creates a situation where you get the right sort of answer you just can't always write that down very easily 
+00:07:31	00:07:40	2	exactly oh wow so so so so you're you're pushing forward the bounds of theoretical leaves her knees or whatever it is science 
+00:07:40	00:07:46	1	which um is kind of interesting considering that that's not really my thing 
+00:07:46	00:07:48	2	[laughter] indeed 
+00:07:48	00:07:52	1	being an experimental is not a theorist but um 
+00:07:52	00:07:57	2	oh wow oh impressive <unk> so are you going to get an article in nature or something 
+00:07:57	00:07:58	1	[noise] um 
+00:07:58	00:07:59	2	actually 
+00:08:00	00:08:03	2	i'm not sure if we're shooting for 
+00:08:13	00:08:18	2	i don't think it's quite that significant would be <unk> letters 
+00:08:18	00:08:18	1	mhm 
+00:08:18	00:08:24	2	but uh we want to write a letter and then a couple articles 
+00:08:24	00:08:25	1	yeah 
+00:08:25	00:08:33	2	[noise] and i i don't know how much you know about scientific literature but letters are much more prestigious then article 
+00:08:33	00:08:34	1	mhm 
+00:08:34	00:08:36	2	oh okay oh i didn't realize that 
+00:08:36	00:08:49	1	yeah so that that's why it's actually a big deal as i you know writing a couple of articles based on your masters thesis is not at all unusual and physics and uh 
+00:08:49	00:08:58	2	it's the fact that i would be writing a letter that is the impressive part of it all and what's actually kind of interesting is i kept telling meal that i saw 
+00:08:58	00:09:00	1	that this was kind of significant 
+00:09:00	00:09:07	2	and they'll kept writing back that i should tone in this part of the thesis down 
+00:09:07	00:09:11	1	[noise] people have been seeing that you know people <unk> 
+00:09:11	00:09:21	2	and it's true they do in the transients and i was having a lot of trouble getting across to him that all of the literature isn't has this frequency and the transit 
+00:09:21	00:09:22	1	yeah 
+00:09:22	00:09:38	2	not driven and uh what happened was after i had turned in my ceases but before i saw uh neil again he went to a conference in rochester and there this was a big issue among the people who were 
+00:09:38	00:09:43	1	doing this work was that they're models couldn't show this as a driven 
+00:09:43	00:09:44	2	frequency yet <unk> 
+00:09:44	00:09:46	1	it showed it [laughter] 
+00:09:46	00:09:47	2	frequent 
+00:09:47	00:09:49	1	oh cool and so neil 
+00:10:01	00:10:07	2	cool that's cool that's mostly the sort of stuff that i'm spending a lot of time on now 
+00:10:07	00:10:13	1	well it'll look good on your <unk> your resume so so you might as well spend the time 
+00:10:13	00:10:17	2	yes well uh no it's definitely worth doing 
+00:10:17	00:10:17	1	hum 
+00:10:17	00:10:28	2	[noise] and i would have been spending more time on it if it weren't for ah dealing with the burglary issue you know yeah i've been dealing with so are you still living in the house in the middle of the park yes 
+00:10:28	00:10:31	1	okay yeah i know the thing is that 
+00:10:31	00:10:39	2	place is incredibly easy to break into if you want to it's not a question of whether or not uh 
+00:10:45	00:10:46	1	exactly exactly 
+00:10:53	00:10:54	1	well it's kind of 
+00:10:54	00:11:07	2	god they've stolen very weird things for the most part as far yeah it's like the first time they broke in the what they stole was just bizarre mostly 
+00:11:07	00:11:09	1	worthless stuff 
+00:11:10	00:11:12	2	yeah uh-huh 
+00:11:12	00:11:14	1	the most worthwhile 
+00:11:14	00:11:31	2	thing as far as monetary value went that they stole was the pre amplifier of my stereo unfortunately because it's a nice pre amplifier it has an off board power supply which they didn't steal [noise] which makes the thing that they stole absolutely worthless 
+00:11:31	00:11:32	1	mhm 
+00:11:32	00:11:33	1	huh 
+00:11:33	00:11:35	2	mhm 
+00:11:46	00:11:50	2	uh which was actually where the major problem kane 
+00:11:50	00:11:52	1	exactly exactly 
+00:11:52	00:12:02	2	i suddenly had no transportation and so i then had to go bike hunting and eventually get another bike and then that cost me a lot of time 
+00:12:02	00:12:04	1	yeah yeah exactly 
+00:12:04	00:12:13	2	spending a lot of time hunting for bikes and then getting one purchased and then having to go get it and things like that 
+00:12:13	00:12:13	1	but 
+00:12:13	00:12:16	2	[noise] that's dealt with at least in so 
+00:12:27	00:12:46	2	[noise] during the summer i can actually uh according to the stipulations of my grant or my fellowship i can actually earn money during the summer so [laughter] okay [laughter] that's an advantage is that i'm allowed to earn money now at least 
+00:12:46	00:12:57	1	oh god um what what what are they want you're not earning money while you're um but i i suppose that they they just wanted to get a ticket all your time to the education and yeah 
+00:13:06	00:13:14	2	stipend and therefore you know i should be living off of that and spending my time doing my work they'd rather than uh 
+00:13:14	00:13:15	1	mhm 
+00:13:15	00:13:17	1	and working it 
+00:13:17	00:13:23	2	something to gain money so [noise] yeah that's part of the agreement is that i'm not supposed to work 
+00:13:23	00:13:24	1	then yeah but 
+00:13:24	00:13:40	2	um actually something that i found out this year that i wish i'd known last year that was interesting and i guess i haven't really told you about this one is that um it turns out that the educational grant part of my 
+00:13:40	00:13:41	1	ship mhm 
+00:13:41	00:13:43	2	it's supposed to go toward tuition 
+00:13:54	00:13:56	1	i uh have been 
+00:14:05	00:14:07	1	oh okay yep yep yep 
+00:14:07	00:14:14	2	and all this extra money to expend [noise] and so actually i guess yeah i hadn't 
+00:14:14	00:14:16	1	uh i didn't have 
+00:14:16	00:14:19	2	computer last time that i would have 
+00:14:19	00:14:22	1	uh talk to and uh so 
+00:14:22	00:14:27	2	oh do you do you have an internet address 'cause uh 'cause we've got an internet link up here 
+00:14:27	00:14:28	1	oh you finally do 
+00:14:28	00:14:31	2	oh yeah well it wasn't it wasn't anything i did but um 
+00:14:31	00:14:34	1	i have two of them all right well let's hear them 
+00:14:34	00:14:39	2	uh the best one to use would be l. carson 
+00:14:39	00:14:43	2	oh person okay at 
+00:14:43	00:14:45	1	c. c. dot 
+00:14:56	00:14:58	2	dot <unk> where are you 
+00:14:58	00:15:01	1	that'd be the uh 
+00:15:01	00:15:02	2	and britain or <unk> uh 
+00:15:02	00:15:03	1	space between them no 
+00:15:03	00:15:09	2	<unk> if you had 'em anything with internet uh well it was the one who does all that stuff 
+00:15:09	00:15:16	1	yeah well the thing is that um every other country in the world will end with the country code ah well of course 
+00:15:28	00:15:33	1	where they're from yeah so uh that's an educational 
+00:15:33	00:15:37	2	one exactly as opposed to commercial government or who knows but not to dance 
+00:15:46	00:15:50	2	some sort that those 
+00:15:50	00:15:52	1	seldom actually have a person that 
+00:15:52	00:15:53	2	uh-huh 
+00:15:53	00:15:55	1	i don't think any of those too 
+00:15:55	00:15:56	2	i'm not sure 
+00:15:56	00:15:58	1	interesting but um 
+00:16:01	00:16:04	1	you know send you a junk mail over the internet now 
+00:16:15	00:16:22	2	what's your internet a drive see underscore nelson 
+00:16:22	00:16:26	1	see under score nelson 
+00:16:26	00:16:29	2	uh-huh 
+00:16:29	00:16:32	2	b._b._c. and see 
+00:16:32	00:16:35	1	maybe see and see 
+00:16:35	00:16:36	1	dot org 
+00:16:36	00:16:37	2	yeah 
+00:16:38	00:16:39	1	uh-huh 
+00:16:39	00:16:41	2	dot u. k. 
+00:16:44	00:16:47	2	yes i i recognized the u._k. 
+00:16:47	00:16:51	1	oh indeed indeed if the country it's one over here in uh in europe 
+00:16:51	00:16:53	2	yes well we're kind of 
+00:16:53	00:16:55	1	see the country 
+00:16:55	00:17:09	2	well it's it's interesting because org and um uh an ac for academic i i know they use their and a lot of other countries don't even use that 
+00:17:09	00:17:09	1	mhm 
+00:17:09	00:17:16	2	you'll just have you know it'll be something dot i._t. in italy 
+00:17:16	00:17:18	1	oh okay yeah yeah they want 
+00:17:18	00:17:24	2	even have an extra code to tell you anything about the place yeah <unk> uh sending too 
+00:17:24	00:17:27	2	but england seems to be pretty <unk> 
+00:17:27	00:17:31	1	stood about having an extra code in there so that 
+00:17:31	00:17:39	2	similar to most of us okay you can forget what it is yeah uh do you do 
+00:17:39	00:17:43	1	guys have full access to the worldwide web as well or 
+00:17:43	00:17:44	2	oh yes yes 
+00:17:44	00:17:49	1	so um suckers go surfing all over the place pulse paintings out of the loop and all that sort of stuff 
+00:17:49	00:17:57	2	yeah that's uh that's another one of the things that my uh educational grants is paying for for me 
+00:17:57	00:17:59	1	oh indeed indeed 
+00:17:59	00:18:12	2	through bryn mawr i don't have worldwide web access so i bought that on my own which is why i have i i do have another email address but i seldom checked the mail there so it's kind of better to just send it to burn more 
+00:18:12	00:18:13	1	mhm 
+00:18:13	00:18:21	2	well i had been i've read a book and i was in the midst of writing a letter but it takes forever to finish letters sometimes um by uh 
+00:18:25	00:18:27	1	some woman who got her 
+00:18:30	00:18:33	1	and then i went to the ducks 
+00:18:33	00:18:57	2	in philosophy from harvard and now she lives over in england and she talks about um uh i'm going to kind of ruined the book but she talks about um <unk> uh content state and um how you can use those in in some form um if you wanted to as a basis for consciousness and then having er states based on top of 
+00:18:57	00:18:59	1	so um 
+00:19:02	00:19:03	1	uh 
+00:19:23	00:19:25	1	she she does a little bit 
+00:19:25	00:19:27	2	and also this guy was a complete cynic 
+00:19:27	00:19:29	1	um he was 
+00:19:29	00:19:36	2	he was the most he was a pure atheist and it was just depressing to uh speak to them 
+00:19:36	00:19:44	1	they asked him well why don't you commit suicide yet i think any thought about it on time and he said something like <unk> well i enjoy i enjoy what i'm doing at work 
+00:19:50	00:19:52	1	[laughter] 
+00:19:52	00:19:58	2	so so i i i i asked him the right question um by accident i <unk> 
+00:19:58	00:19:59	1	what was it 
+00:19:59	00:20:01	2	i think have you made a double particle yet 
+00:20:01	00:20:03	1	and he said 
+00:20:20	00:20:21	1	mhm 
+00:20:21	00:20:34	2	i don't know enough to be of a whole lot of help their uh don't really know a huge amount about particle physics uh sounds a bit specialized yeah 
+00:20:34	00:20:35	1	trying to remember 
+00:20:35	00:20:38	2	what the guy's name is um 
+00:20:38	00:20:39	1	mhm 
+00:20:39	00:20:44	2	oh oh <unk> yeah roger penn rose that's who it is 
+00:20:44	00:20:44	1	mhm 
+00:20:44	00:20:46	2	[noise] um 
+00:20:46	00:20:48	2	he uh 
+00:20:48	00:20:49	1	has been 
+00:20:49	00:20:53	2	working recently on a uh 
+00:20:54	00:20:56	1	system whereby 
+00:21:03	00:21:04	1	right 
+00:21:04	00:21:15	2	and uh he believes that he's found a way because one of the big problems with that whole idea is that uh 
+00:21:15	00:21:25	1	<unk> the whole the whole object of this is the multiple calculations can be carried out simultaneously by using super positions 
+00:21:36	00:21:37	1	[noise] 
+00:21:37	00:21:43	2	the big problem is that you can't really get the brain 
+00:21:43	00:21:45	1	to do that because 
+00:21:45	00:21:46	2	to maintain 
+00:21:46	00:21:48	1	super positions 
+00:21:48	00:21:52	2	means that no measurement as possible 
+00:21:52	00:21:53	1	but 
+00:21:53	00:22:07	2	yeah brain is so noisy that things are continuously getting bombarded with photons that can carry out the measurement and since the measurement doesn't have to be actually done it just has to be possible to screw up the super position 
+00:22:07	00:22:09	1	yeah yeah you don't 
+00:22:09	00:22:22	2	have anywhere that you can actually set these up and uh he and his doctor have come up with an idea of how you could do that and 
+00:22:22	00:22:24	1	is um 
+00:22:25	00:22:27	1	what do you call them 
+00:22:27	00:22:28	2	[laughter] 
+00:22:28	00:22:35	1	<unk> with phone on inside of um <unk> in cells 
+00:22:35	00:22:36	2	mhm 
+00:22:36	00:22:42	1	and so uh it's been a while since i read this but i remember thinking oh i should tell eric 
+00:22:46	00:22:55	1	send you um i'll send you let it eventually and i'll i'll reference what the book as i would the reason that i like to this because it was she was reasonably regrets 
+00:22:55	00:23:02	2	from the scientific <unk> part i mean there were no formulas or anything in it um and and i don't really care about details like that 
+00:23:02	00:23:04	1	but um but she being 
+00:23:04	00:23:13	2	uh for lots of i guess it was before so i guess it was it was like psychology and religion there was some some really weird um combination 
+00:23:13	00:23:14	1	physics and i'm i'm thinking 
+00:23:25	00:23:32	2	look at um ah humans and how they interact and how they behave um you know and then 
+00:23:32	00:23:35	1	and she'd go through and she discuss something and say on this 
+00:23:35	00:23:42	2	is understanding you know 'cause the current theory and then uh you know human psychology such and so and and this kind of mattress and 
+00:23:42	00:23:44	1	[noise] you know so so so she takes from the standpoint of 
+00:23:44	00:23:50	2	consciousness has to have you have to have these <unk> sort of principles that needs to have um 
+00:23:51	00:23:53	1	people who 
+00:24:03	00:24:06	2	in a sense so we don't think in sort of individual little you know 
+00:24:06	00:24:11	1	transactions going on nine parallel we think it's sort of a whole thing 
+00:24:11	00:24:23	2	and and and and so you know i'm not explaining it very well but but she covers it from different angles like that and then goes through and describe you know different uh physics concept you what was the other one there was um 
+00:24:23	00:24:35	1	[noise] for a lick systems uh which i think or things like um [noise] they're kind of halfway between um uh <unk> i guess it's kind of a control 
+00:24:35	00:24:46	2	it's like world pools in a stream where the the system of the world pool has maintained even though the components of the world <unk> are you the water 
+00:24:46	00:24:48	1	um it's constantly changing 
+00:24:57	00:24:59	1	like a lot different parts 
+00:24:59	00:25:05	2	and she has interesting comments in that direction as well um she um she blames every 
+00:25:05	00:25:07	1	all the evils of the world on uh 
+00:25:07	00:25:24	2	<unk> new telling me and i'm forty and you know mindset uh-huh mm that uh well maybe they were useful but they're leading to two generations of our society and we need to have a new quentin view tests so she's a bit of a profit as well 
+00:25:24	00:25:25	1	uh-huh well 
+00:25:25	00:25:30	2	there seemed to be a reasonable number of people um on that bandwagon 
+00:25:30	00:25:37	1	yeah well well i i tend to agree with that in in in non specific senses 
+00:25:43	00:25:45	1	i get the impression that 
+00:25:45	00:26:02	2	nothing that she really said that the original because when i was i said when i spoke to this one guy he said oh well he started people claim that things before but her seemed to have all the bits together in one place and it seemed to be reasonably regrets i'm it and you know it made sense that it was it was a good read it was good fun 
+00:26:02	00:26:04	1	well that's 
+00:26:04	00:26:06	2	a reasonable thing man 
+00:26:06	00:26:06	1	indeed 
+00:26:06	00:26:10	2	[noise] that's what i just finished reading was dracula 
+00:26:10	00:26:11	1	[laughter] 
+00:26:18	00:26:21	1	yeah it was not a good huh 
+00:26:21	00:26:30	2	i mean good or was it just so different than than what they they write these days that it was unrecognizable i was pretty good and actually what 
+00:26:30	00:26:32	1	oh oh <unk> i thought was 
+00:26:32	00:26:41	2	interesting in the beginning and it actually continue throughout and was reasonably consistent with that i i didn't know this have you ever read it 
+00:26:41	00:26:43	1	no no 
+00:26:48	00:26:50	1	oh really oh 
+00:26:50	00:26:55	2	so there you know several characters in the book keeping journals 
+00:26:55	00:26:58	1	explaining what they did that day 
+00:26:58	00:27:05	2	oh <unk> and then he said he interspersed so it does like june fifth unlimited joe's diary and seasons diary and frank's diary 
+00:27:05	00:27:10	1	yeah oh wow and so yeah you you follow 
+00:27:10	00:27:18	2	so long and um you get different viewpoints on a few of the things and something that he did that i think 
+00:27:18	00:27:21	1	probably pretty original and the time that 
+00:27:21	00:27:29	2	<unk> was writing [noise] was that all of the dialogue of all of the characters is very colloquial 
+00:27:30	00:27:31	2	and um 
+00:27:38	00:27:40	1	dock workers in london 
+00:27:49	00:27:50	1	okay exactly yeah 
+00:27:50	00:28:05	2	when you uh read then health sings stuff it's quite clear that english is not his first language he's very educated but he used he misuses grammar 
+00:28:05	00:28:07	1	oh right and and and 
+00:28:07	00:28:10	2	system throughout the entire book he does 
+00:28:10	00:28:11	1	which is yeah 
+00:28:11	00:28:12	2	interesting 
+00:28:12	00:28:13	1	right yeah 
+00:28:13	00:28:20	2	so it was interesting in that way and um it was [noise] uh 
+00:28:20	00:28:24	1	for my liking a little moralistic and heavy on the cruise 
+00:28:24	00:28:33	2	and uh motifs but uh it was uh pretty good true uh 
+00:28:33	00:28:37	1	telling of the vampire myth <unk> i mean since 
+00:28:37	00:28:45	2	much of the modern stuff is based directly on it yeah you would hope that it was [laughter] pretty much that but but it was 
+00:28:45	00:28:49	1	it was interesting i've actually been reading a lot 
+00:28:49	00:28:57	2	stuff along those lines recently because i i started playing in a uh live action role playing game once a month 
+00:28:57	00:28:58	1	oh uh 
+00:28:58	00:29:01	2	uh it's called vampire the masquerade 
+00:29:02	00:29:04	2	and huh 
+00:29:16	00:29:17	1	basically 
+00:29:17	00:29:37	2	mind world in which vampires and wear wolves and rave and mummies and such walk the world yeah and our real but like the <unk> uh the masquerade is <unk> lead to find set of rules that vampires for the most part live on 
+00:29:37	00:29:38	1	and 
+00:29:38	00:29:45	2	for the masquerade is because they want humans to believe they don't exist 
+00:29:45	00:29:47	1	exactly yeah 
+00:29:47	00:29:58	2	there are these minor problems that uh well you you find out when you read the histories in er the game that for instance the inquisition was actually completely 
+00:29:58	00:29:59	1	about vampire 
