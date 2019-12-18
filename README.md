@@ -2,6 +2,7 @@
 
 ### ALB2307 - Austin Bell
 December 18, 2019
+
 Report Name: Speech Recogntion and Speaker Diarization Transcription Tool
 
 Abstract: In this project, I operationalize a transcription tool that leverages models designed within the Kaldi toolkit. The tool consists of two models for transcribing conversational speech: a speech recognition model and speaker diarization model. Our approach, ﬁrst leverages an algorithm similar the CallHome Diarization example. Second I utilize a pretrained speech recognition model for the ASPiRE competition to transcribe speech to text. These two models are combined under a single easy-to-use framework to create transcribed text ﬁles for facilitating further data mining. 
