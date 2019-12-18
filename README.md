@@ -39,6 +39,9 @@ Some varying results from the models utilized in this tool
 All listed files generated from scratch by me.  Partially touched files are commented with my UNI in the code base
 
 ~/ : home directory responsible for running all other scripts, storing results, and data
+
+### Command to run the entire process: bash transcribe_conversation.sh --lm_expansion true rawData/CallHome testdir 2
+
  * transcribe_conversations.sh: bash script that runs the entire process from start to finish.  
    * Mandatory inputs: directory to raw speech files; name of desired output directory; number of speakers in file ("unknown" is also an option)
    * Optional inputs: threshold for clustering PLDA scores when number of speakers is unknown; whether to expand the language model with additional words; corpus to use for language model expansion 
