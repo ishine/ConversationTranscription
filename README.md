@@ -15,25 +15,6 @@ List of tools outside of Kaldi:
 
 Scripts and directory related to tool that transcribes conversational speech.  Takes as conversational speech files as input and returns formatted transcribed and diarized conversation.  A single text file is returned per speech file.  Subsequent data mining can then be performed on returned text files. 
 
-## Inputs
-Tool takes conversational speech files of varying file types as input.  For the purpose of development, I utilized the CallHome English Corpus. Sample of input directory pictured below:
-![alt text](img/sample_input_dir.JPG)
-
-## Outputs
-For each file, a conversation transcript is exported.  A sample of the export is pictured below:
-![alt text](img/sample_output_file.JPG)
-
-## Data
-For testing and development purposes, I leveraged the CallHome English dataset.  Information can be found at this link. The dataset is a phone call between two native english speakers.  It consists of 120 calls and each call can last up to 30 minutes. Calls can be between male or females from varying ages. 
-
-Data sourced from Language Data Consortium
-
-## Results
-Some varying results from the models utilized in this tool 
- * Diarization Error Rate %: 10.4%<sup>1</sup>
- * Original ASR Model WER %: 27.7%<sup>2</sup>
- * ASR WER % on CallHome data: 33.2%
-
 ## Tool Structure and Script Details 
 
 All listed files generated from scratch by me.  Partially touched files are commented with my UNI in the code base
